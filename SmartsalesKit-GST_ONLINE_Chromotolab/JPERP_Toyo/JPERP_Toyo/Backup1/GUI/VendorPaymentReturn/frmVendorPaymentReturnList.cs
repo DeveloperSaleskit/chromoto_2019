@@ -1,0 +1,389 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using System.Diagnostics;
+using System.Collections.Specialized;
+using Account.BusinessLogic;
+using Account.Common;
+using Account.Validator;
+
+namespace Account.GUI.VendorPaymentReturn
+{
+    public partial class frmVendorPaymentReturnList : Account.GUIBase
+    {
+        #region "Variable Declaration...."
+
+        DataTable ObjDataTable = new DataTable();
+        DataTable ObjDataTableRegister = new DataTable();
+        CommonListBL objList = new CommonListBL();
+        BusinessLogic.Common objCommon = new Account.BusinessLogic.Common();
+
+        int idgvPosition = 0;
+        DataGridViewColumn sortedColumn;
+        SortOrder sortDirection;
+        string StrFilter = "";
+        DataView DV;
+        int _CompId = 0;
+
+        #endregion
+
+        #region "Form load events"
+
+        public frmVendorPaymentReturnList()
+        {
+            InitializeComponent();
+        }
+
+        private void frmCustomerPaymentList_Load(object sender, EventArgs e)
+        {
+            AddHandlers(this);
+            SetControlsDefaults(this);
+            LoadList();
+            cmbreports.Items.Add("--Select Report--");
+            cmbreports.Items.Add("Vendor Payment Return Register");
+           // cmbreports.Items.Add("Customer Pending Payment Receipt");
+            //cmbreports.Items.Add("Payment Receipt");
+            cmbreports.SelectedIndex = 0;
+        }
+
+        #endregion
+
+        #region "Private Helper Methods"
+
+        private void LoadList()
+        {
+            try
+            {
+                NameValueCollection para1 = new NameValueCollection();
+                _CompId = CurrentCompany.CompId;
+                para1.Add("@i_CompId", CurrentCompany.CompId.ToString());
+              
+                para1.Add("@i_UserID", CurrentUser.UserID.ToString());
+
+                ObjDataTable = objList.ListOfRecord("usp_VendorPaymentReturn_List", para1, "Customer Payment Return - List - LoadList");
+                if (objList.Exception == null)
+                {
+                    if (dgvCustomerPayment.CurrentRow != null)
+                    {
+                        idgvPosition = dgvCustomerPayment.CurrentRow.Index;
+                    }
+                    ArrangeDataGridView();
+                    dgvCustomerPayment.AutoGenerateColumns = false;
+                    dgvCustomerPayment.DataSource = ObjDataTable;
+                    lblTotRec.Text = Utill.Common.CommonMessage.TotalRecord + dgvCustomerPayment.RowCount.ToString();
+                    if (dgvCustomerPayment.CurrentRow != null && idgvPosition <= dgvCustomerPayment.RowCount)
+                    {
+                        if (dgvCustomerPayment.Rows.Count - 1 < idgvPosition)
+                        {
+                            dgvCustomerPayment.CurrentCell = dgvCustomerPayment.Rows[idgvPosition - 1].Cells[0];
+                        }
+                        else
+                        {
+                            dgvCustomerPayment.CurrentCell = dgvCustomerPayment.Rows[idgvPosition].Cells[0];
+                        }
+                    }
+                    ArrangeDataGridView();
+                }
+                else
+                {
+                    MessageBox.Show(objList.Exception.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Customer Payment - List", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void ArrangeDataGridView()
+        {
+            try
+            {
+                dgvCustomerPayment.Columns["PaymentCode"].DataPropertyName = ObjDataTable.Columns["PaymentReturnCode"].ToString();
+                dgvCustomerPayment.Columns["PaymentID"].DataPropertyName = ObjDataTable.Columns["PaymentReturnID"].ToString();
+                dgvCustomerPayment.Columns["PaymentDate"].DataPropertyName = ObjDataTable.Columns["PaymentReturnDate"].ToString();
+                dgvCustomerPayment.Columns["VendorCode"].DataPropertyName = ObjDataTable.Columns["Code"].ToString();
+                dgvCustomerPayment.Columns["Vendor"].DataPropertyName = ObjDataTable.Columns["Name"].ToString();
+                dgvCustomerPayment.Columns["NetAmount"].DataPropertyName = ObjDataTable.Columns["RNetAmount"].ToString();
+                dgvCustomerPayment.Columns["Narration"].DataPropertyName = ObjDataTable.Columns["Narration"].ToString();
+                dgvCustomerPayment.Columns["CompId"].DataPropertyName = ObjDataTable.Columns["CompId"].ToString();
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Customer Payment - List", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void SetSortedColumns()
+        {
+            try
+            {
+                if (dgvCustomerPayment.SortedColumn != null)
+                {
+                    sortedColumn = dgvCustomerPayment.SortedColumn;
+                    sortDirection = dgvCustomerPayment.SortOrder;
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Customer Payment - List", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void setDefaultGridRecords(object sender, EventArgs e)
+        {
+            try
+            {
+                LoadList();
+                //btnApply_Click(sender, e);
+                DV = ObjDataTable.DefaultView;
+                DV.RowFilter = StrFilter;
+
+                dgvCustomerPayment.DataSource = DV.ToTable();
+                lblTotRec.Text = Utill.Common.CommonMessage.TotalRecord + dgvCustomerPayment.RowCount.ToString();
+
+                if (sortedColumn != null)
+                {
+                    ListSortDirection LSD;
+                    if (sortDirection == SortOrder.Ascending)
+                    {
+                        LSD = System.ComponentModel.ListSortDirection.Ascending;
+                    }
+                    else
+                    {
+                        LSD = System.ComponentModel.ListSortDirection.Descending;
+                    }
+
+                    dgvCustomerPayment.Sort(dgvCustomerPayment.Columns[sortedColumn.Name], LSD);
+                }
+                if (dgvCustomerPayment.CurrentRow != null && idgvPosition <= dgvCustomerPayment.RowCount)
+                {
+                    if (dgvCustomerPayment.Rows.Count - 1 < idgvPosition)
+                    {
+                        dgvCustomerPayment.CurrentCell = dgvCustomerPayment.Rows[idgvPosition - 1].Cells[0];
+                    }
+                    else
+                    {
+                        dgvCustomerPayment.CurrentCell = dgvCustomerPayment.Rows[idgvPosition].Cells[0];
+                    }
+                }
+
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Customer Payment - List", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        #endregion
+
+        #region "Button events"
+
+        private void btnApply_Click(object sender, EventArgs e)
+        {
+            DV = ObjDataTable.DefaultView;
+            DV.RowFilter = StrFilter;
+            dgvCustomerPayment.DataSource = DV.ToTable();
+            frmVendorPaymentReturnFilter filterSalesinvoice = new frmVendorPaymentReturnFilter(ObjDataTable);
+            filterSalesinvoice.ShowDialog();
+            StrFilter = filterSalesinvoice.STRFILTER;
+            
+            DataTable dt = DV.ToTable();
+            dgvCustomerPayment.DataSource = DV.ToTable();
+            //DataTable dt = DV.ToTable();
+            dgvCustomerPayment.DataSource = DV.ToTable();
+            lblTotRec.Text = Utill.Common.CommonMessage.TotalRecord + dgvCustomerPayment.RowCount.ToString();
+
+            ArrangeDataGridView();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                StrFilter = "";
+                LoadList();
+
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Customer Payment - List", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmVendorPaymentReturnEntry fCustomerPayment = new frmVendorPaymentReturnEntry((int)Constant.Mode.Insert, 0);
+                fCustomerPayment.ShowInTaskbar = false;
+                fCustomerPayment.ShowDialog();
+                btnClear_Click(sender, e);
+                LoadList();
+
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Customer Payment - List", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dgvCustomerPayment.CurrentRow != null)
+                {
+                    SetSortedColumns();
+                    frmVendorPaymentReturnEntry fCustomerPayment = new frmVendorPaymentReturnEntry((int)Constant.Mode.Modify, Convert.ToInt64(dgvCustomerPayment.CurrentRow.Cells["PaymentID"].Value));
+                    fCustomerPayment.ShowInTaskbar = false;
+                    fCustomerPayment.ShowDialog();
+                    setDefaultGridRecords(sender, e);
+                    
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Customer Payment - List", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dgvCustomerPayment.CurrentRow != null)
+                {
+                    SetSortedColumns();
+                    frmVendorPaymentReturnEntry fCustomerPayment = new frmVendorPaymentReturnEntry((int)Constant.Mode.Delete, Convert.ToInt64(dgvCustomerPayment.CurrentRow.Cells["PaymentID"].Value));
+                    fCustomerPayment.ShowInTaskbar = false;
+                    fCustomerPayment.ShowDialog();
+                    setDefaultGridRecords(sender, e);
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Customer Payment - List", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        #endregion
+
+        #region "Datagrid Event"
+
+        private void dgvCustomerPayment_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
+        {
+            try
+            {
+                if (e.RowIndex == -1)
+                {
+                    GridDrawCustomHeaderColumns(dgvCustomerPayment, e, Properties.Resources.Button_Gray_Stripe_01_050);
+                }
+                if (e.ColumnIndex == -1)
+                {
+                    GridDrawCustomHeaderColumns(dgvCustomerPayment, e, Properties.Resources.Button_Gray_Stripe_01_050);
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Customer Payment - List", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        #endregion
+
+        #region "TextBox events"
+
+        private void txtFromentryno_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            int ascii = e.KeyChar;
+            DataValidator.AllowOnlyCharacter(ascii, e);
+        }
+
+        private void txtFromDate_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            DataValidator.AllowOnlyNumeric(e, "/,-,.");
+        }
+
+        #endregion
+
+
+
+        #region "Report menu..."
+
+        private void cmbreports_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbreports.SelectedIndex == 1)
+            {
+                try
+                {
+                    DataTable dtReport = new DataTable();
+
+                    dtReport = objList.ListOfRecord("rpt_VendorPaymentReturn", null, "VendorPaymentReturn - Report");
+                    if (objList.Exception == null)
+                    {
+                        if (System.IO.File.Exists(CurrentUser.ReportPath + "rptVendorPaymentReturnRegister.rpt"))
+                        {
+                            //dtblPurchaseInvoice .TableName = "PORegister";
+                            //dtblPurchaseInvoice.WriteXmlSchema(@"D:\Report\PORegister.xsd");
+                            CrystalDecisions.CrystalReports.Engine.ReportDocument rptDoc = new CrystalDecisions.CrystalReports.Engine.ReportDocument();
+                            rptDoc.Load(CurrentUser.ReportPath + "rptVendorPaymentReturnRegister.rpt");
+
+                            CurrentUser.AddReportParameters(rptDoc, dtReport, "Vendor Payment Return Register", true, true, true, true, false, true, true, false, false, false, false);
+
+                            Reports.frmReportViewer fRptView = new Reports.frmReportViewer();
+                            fRptView.Text = "Vendor Payment Return Register - [Page Size: A4]";
+                            fRptView.crViewer.ReportSource = rptDoc;
+                            fRptView.ShowDialog();
+                        }
+                        else
+                        {
+                            MessageBox.Show("File is not exist...");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show(objList.Exception.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                catch (Exception exc)
+                {
+                    Utill.Common.ExceptionLogger.writeException("Vendor Payment - Register Report", exc.StackTrace);
+                    MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+                }
+            }
+            cmbreports.SelectedIndex = 0;
+        }
+
+        #endregion
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            //Process.Start(CurrentUser.ReportPath + @"Help\DWCCatalog.pdf");
+            Help obj = new Help();
+            obj.ShowDialog();
+        }
+
+
+
+
+    }
+}

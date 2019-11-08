@@ -1,0 +1,652 @@
+﻿namespace Account.GUI.Lead
+{
+    partial class frmLeadList
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.lblTotRec = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnApply = new System.Windows.Forms.Button();
+            this.dgvInquiry = new System.Windows.Forms.DataGridView();
+            this.LeadNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LeadDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CustomerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ContactPerson = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Phone1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mobile = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Product = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SourceOfLead = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Remark = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EmpName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EmpAllTo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Budget = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NextFollowUpDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LeadStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LeadBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Inquiry_AutoResponse = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LeadId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CompId1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvFollwUps = new System.Windows.Forms.DataGridView();
+            this.FollowupByName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FollowupDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LeadFollowUpId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Remarks = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnImport = new System.Windows.Forms.Button();
+            this.btnUploadCustomer = new System.Windows.Forms.Button();
+            this.btnHelp = new System.Windows.Forms.Button();
+            this.cmbreports = new System.Windows.Forms.ComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnFollowUp = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnContactPerson = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvInquiry)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFollwUps)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // lblTotRec
+            // 
+            this.lblTotRec.AutoSize = true;
+            this.lblTotRec.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotRec.Location = new System.Drawing.Point(1, 10);
+            this.lblTotRec.Margin = new System.Windows.Forms.Padding(0);
+            this.lblTotRec.Name = "lblTotRec";
+            this.lblTotRec.Size = new System.Drawing.Size(96, 18);
+            this.lblTotRec.TabIndex = 9;
+            this.lblTotRec.Text = "Total Records:";
+            this.lblTotRec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTotRec.UseCompatibleTextRendering = true;
+            // 
+            // btnClear
+            // 
+            this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClear.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(1133, 19);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(94, 23);
+            this.btnClear.TabIndex = 3;
+            this.btnClear.Tag = "Click to clear filter;";
+            this.btnClear.Text = "Refresh";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnClose.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.btnClose.Location = new System.Drawing.Point(1229, 19);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(73, 23);
+            this.btnClose.TabIndex = 4;
+            this.btnClose.Tag = "Click to close form;";
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnApply
+            // 
+            this.btnApply.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnApply.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApply.Location = new System.Drawing.Point(3, 18);
+            this.btnApply.Name = "btnApply";
+            this.btnApply.Size = new System.Drawing.Size(106, 23);
+            this.btnApply.TabIndex = 0;
+            this.btnApply.Tag = "Click to apply filter;";
+            this.btnApply.Text = "Report Filter";
+            this.btnApply.UseVisualStyleBackColor = true;
+            this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
+            // 
+            // dgvInquiry
+            // 
+            this.dgvInquiry.AllowUserToAddRows = false;
+            this.dgvInquiry.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvInquiry.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvInquiry.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvInquiry.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.LeadNo,
+            this.LeadDate,
+            this.CustomerName,
+            this.ContactPerson,
+            this.Phone1,
+            this.Mobile,
+            this.Email,
+            this.Product,
+            this.Category,
+            this.SourceOfLead,
+            this.Status,
+            this.Remark,
+            this.EmpName,
+            this.EmpAllTo,
+            this.Budget,
+            this.NextFollowUpDate,
+            this.LeadStatus,
+            this.LeadBy,
+            this.Inquiry_AutoResponse,
+            this.LeadId,
+            this.CompId1});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvInquiry.DefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvInquiry.Location = new System.Drawing.Point(6, 34);
+            this.dgvInquiry.Name = "dgvInquiry";
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvInquiry.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dgvInquiry.Size = new System.Drawing.Size(1000, 622);
+            this.dgvInquiry.TabIndex = 6;
+            this.dgvInquiry.Tag = "List of inquiry;";
+            this.dgvInquiry.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvBuilding_CellPainting);
+            this.dgvInquiry.SelectionChanged += new System.EventHandler(this.dgvInquiry_SelectionChanged);
+            this.dgvInquiry.Sorted += new System.EventHandler(this.dgvInquiry_Sorted);
+            // 
+            // LeadNo
+            // 
+            this.LeadNo.HeaderText = "Inquiry No";
+            this.LeadNo.Name = "LeadNo";
+            // 
+            // LeadDate
+            // 
+            dataGridViewCellStyle2.Format = "dd/MM/yyyy";
+            this.LeadDate.DefaultCellStyle = dataGridViewCellStyle2;
+            this.LeadDate.HeaderText = "Date";
+            this.LeadDate.Name = "LeadDate";
+            // 
+            // CustomerName
+            // 
+            this.CustomerName.HeaderText = "Customer";
+            this.CustomerName.Name = "CustomerName";
+            // 
+            // ContactPerson
+            // 
+            this.ContactPerson.HeaderText = "Contact Person";
+            this.ContactPerson.Name = "ContactPerson";
+            // 
+            // Phone1
+            // 
+            this.Phone1.HeaderText = "Phone";
+            this.Phone1.Name = "Phone1";
+            this.Phone1.Visible = false;
+            // 
+            // Mobile
+            // 
+            this.Mobile.HeaderText = "Mobile";
+            this.Mobile.Name = "Mobile";
+            // 
+            // Email
+            // 
+            this.Email.HeaderText = "Email";
+            this.Email.Name = "Email";
+            // 
+            // Product
+            // 
+            this.Product.HeaderText = "Product Specification";
+            this.Product.Name = "Product";
+            // 
+            // Category
+            // 
+            this.Category.HeaderText = "Category";
+            this.Category.Name = "Category";
+            // 
+            // SourceOfLead
+            // 
+            this.SourceOfLead.HeaderText = "Source Of Inquiry";
+            this.SourceOfLead.Name = "SourceOfLead";
+            // 
+            // Status
+            // 
+            this.Status.HeaderText = "Status";
+            this.Status.Name = "Status";
+            // 
+            // Remark
+            // 
+            this.Remark.HeaderText = "Remarks";
+            this.Remark.Name = "Remark";
+            // 
+            // EmpName
+            // 
+            this.EmpName.HeaderText = "App Taken By";
+            this.EmpName.Name = "EmpName";
+            // 
+            // EmpAllTo
+            // 
+            this.EmpAllTo.HeaderText = "Allocated To";
+            this.EmpAllTo.Name = "EmpAllTo";
+            // 
+            // Budget
+            // 
+            this.Budget.HeaderText = "Budget";
+            this.Budget.Name = "Budget";
+            this.Budget.Visible = false;
+            // 
+            // NextFollowUpDate
+            // 
+            dataGridViewCellStyle3.Format = "dd/MM/yyyy";
+            this.NextFollowUpDate.DefaultCellStyle = dataGridViewCellStyle3;
+            this.NextFollowUpDate.HeaderText = "Next FollowUp";
+            this.NextFollowUpDate.Name = "NextFollowUpDate";
+            // 
+            // LeadStatus
+            // 
+            this.LeadStatus.HeaderText = "Inquiry Status";
+            this.LeadStatus.Name = "LeadStatus";
+            this.LeadStatus.Visible = false;
+            // 
+            // LeadBy
+            // 
+            this.LeadBy.HeaderText = "Inquiry By";
+            this.LeadBy.Name = "LeadBy";
+            this.LeadBy.Visible = false;
+            // 
+            // Inquiry_AutoResponse
+            // 
+            this.Inquiry_AutoResponse.HeaderText = "Inquiry_AutoResponse";
+            this.Inquiry_AutoResponse.Name = "Inquiry_AutoResponse";
+            this.Inquiry_AutoResponse.Visible = false;
+            // 
+            // LeadId
+            // 
+            this.LeadId.HeaderText = "LeadId";
+            this.LeadId.Name = "LeadId";
+            this.LeadId.Visible = false;
+            // 
+            // CompId1
+            // 
+            this.CompId1.HeaderText = "CompId";
+            this.CompId1.Name = "CompId1";
+            this.CompId1.Visible = false;
+            // 
+            // dgvFollwUps
+            // 
+            this.dgvFollwUps.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvFollwUps.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.dgvFollwUps.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvFollwUps.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.FollowupByName,
+            this.FollowupDate,
+            this.LeadFollowUpId,
+            this.Remarks});
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvFollwUps.DefaultCellStyle = dataGridViewCellStyle7;
+            this.dgvFollwUps.Location = new System.Drawing.Point(1011, 34);
+            this.dgvFollwUps.Name = "dgvFollwUps";
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvFollwUps.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.dgvFollwUps.Size = new System.Drawing.Size(342, 622);
+            this.dgvFollwUps.TabIndex = 7;
+            this.dgvFollwUps.Tag = "List of follow ups;";
+            this.dgvFollwUps.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvFollwUps_CellPainting);
+            // 
+            // FollowupByName
+            // 
+            this.FollowupByName.HeaderText = "Followup By";
+            this.FollowupByName.Name = "FollowupByName";
+            this.FollowupByName.ReadOnly = true;
+            // 
+            // FollowupDate
+            // 
+            this.FollowupDate.HeaderText = "Followup Date";
+            this.FollowupDate.Name = "FollowupDate";
+            // 
+            // LeadFollowUpId
+            // 
+            this.LeadFollowUpId.HeaderText = "LeadFollowUpId";
+            this.LeadFollowUpId.Name = "LeadFollowUpId";
+            this.LeadFollowUpId.ReadOnly = true;
+            this.LeadFollowUpId.Visible = false;
+            // 
+            // Remarks
+            // 
+            this.Remarks.HeaderText = "Remarks";
+            this.Remarks.Name = "Remarks";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.btnImport);
+            this.groupBox1.Controls.Add(this.btnUploadCustomer);
+            this.groupBox1.Location = new System.Drawing.Point(900, 9);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(231, 42);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Tag = "Import Customer;";
+            this.groupBox1.Visible = false;
+            // 
+            // btnImport
+            // 
+            this.btnImport.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.btnImport.Location = new System.Drawing.Point(123, 10);
+            this.btnImport.Name = "btnImport";
+            this.btnImport.Size = new System.Drawing.Size(100, 23);
+            this.btnImport.TabIndex = 1;
+            this.btnImport.Tag = "Click to Import Excel File of  Customer;";
+            this.btnImport.Text = "Upload";
+            this.btnImport.UseVisualStyleBackColor = true;
+            this.btnImport.Visible = false;
+            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
+            // 
+            // btnUploadCustomer
+            // 
+            this.btnUploadCustomer.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.btnUploadCustomer.Location = new System.Drawing.Point(6, 10);
+            this.btnUploadCustomer.Name = "btnUploadCustomer";
+            this.btnUploadCustomer.Size = new System.Drawing.Size(111, 23);
+            this.btnUploadCustomer.TabIndex = 0;
+            this.btnUploadCustomer.Tag = "Click to Download Excel File of  Customer;";
+            this.btnUploadCustomer.Text = "Download Excel";
+            this.btnUploadCustomer.UseVisualStyleBackColor = true;
+            this.btnUploadCustomer.Visible = false;
+            this.btnUploadCustomer.Click += new System.EventHandler(this.btnUploadCustomer_Click);
+            // 
+            // btnHelp
+            // 
+            this.btnHelp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnHelp.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.btnHelp.Location = new System.Drawing.Point(1304, 19);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(64, 23);
+            this.btnHelp.TabIndex = 5;
+            this.btnHelp.Tag = "Click to Download Help File of  Customer;";
+            this.btnHelp.Text = "Help";
+            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
+            // cmbreports
+            // 
+            this.cmbreports.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbreports.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbreports.FormattingEnabled = true;
+            this.cmbreports.Location = new System.Drawing.Point(115, 19);
+            this.cmbreports.Name = "cmbreports";
+            this.cmbreports.Size = new System.Drawing.Size(151, 21);
+            this.cmbreports.TabIndex = 1;
+            this.cmbreports.Tag = "Select city;@";
+            this.cmbreports.SelectedIndexChanged += new System.EventHandler(this.cmbreports_SelectedIndexChanged);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.btnDelete);
+            this.groupBox2.Controls.Add(this.btnNew);
+            this.groupBox2.Controls.Add(this.btnEdit);
+            this.groupBox2.Controls.Add(this.btnFollowUp);
+            this.groupBox2.Location = new System.Drawing.Point(9, 9);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(559, 48);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Function Selection";
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.button1.Location = new System.Drawing.Point(113, 18);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Tag = "Click to add Inquiry;";
+            this.button1.Text = "New inquiry";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnDelete.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.btnDelete.Location = new System.Drawing.Point(341, 18);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(100, 23);
+            this.btnDelete.TabIndex = 3;
+            this.btnDelete.Tag = "Click to delete selected Inquiry;";
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnNew
+            // 
+            this.btnNew.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnNew.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.btnNew.Location = new System.Drawing.Point(7, 18);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(100, 23);
+            this.btnNew.TabIndex = 0;
+            this.btnNew.Tag = "Click to add Inquiry;";
+            this.btnNew.Text = "New";
+            this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnEdit.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.btnEdit.Location = new System.Drawing.Point(235, 18);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(100, 23);
+            this.btnEdit.TabIndex = 2;
+            this.btnEdit.Tag = "Click to edit selected Inquiry;";
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // btnFollowUp
+            // 
+            this.btnFollowUp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnFollowUp.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.btnFollowUp.Location = new System.Drawing.Point(447, 18);
+            this.btnFollowUp.Name = "btnFollowUp";
+            this.btnFollowUp.Size = new System.Drawing.Size(100, 23);
+            this.btnFollowUp.TabIndex = 0;
+            this.btnFollowUp.Tag = "Click to followup;";
+            this.btnFollowUp.Text = "Follow Up";
+            this.btnFollowUp.UseVisualStyleBackColor = true;
+            this.btnFollowUp.Click += new System.EventHandler(this.btnFollowUp_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox3.Controls.Add(this.cmbreports);
+            this.groupBox3.Controls.Add(this.btnApply);
+            this.groupBox3.Location = new System.Drawing.Point(618, 9);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(272, 47);
+            this.groupBox3.TabIndex = 1;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Report Format selection";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox4.Controls.Add(this.btnContactPerson);
+            this.groupBox4.Controls.Add(this.dgvFollwUps);
+            this.groupBox4.Controls.Add(this.dgvInquiry);
+            this.groupBox4.Controls.Add(this.lblTotRec);
+            this.groupBox4.Location = new System.Drawing.Point(9, 57);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(1359, 662);
+            this.groupBox4.TabIndex = 27;
+            this.groupBox4.TabStop = false;
+            // 
+            // btnContactPerson
+            // 
+            this.btnContactPerson.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.btnContactPerson.Location = new System.Drawing.Point(854, 5);
+            this.btnContactPerson.Name = "btnContactPerson";
+            this.btnContactPerson.Size = new System.Drawing.Size(135, 23);
+            this.btnContactPerson.TabIndex = 28;
+            this.btnContactPerson.Tag = "Click to show and add contact person;";
+            this.btnContactPerson.Text = "Contact Person";
+            this.btnContactPerson.UseVisualStyleBackColor = true;
+            this.btnContactPerson.Visible = false;
+            this.btnContactPerson.Click += new System.EventHandler(this.btnContactPerson_Click);
+            // 
+            // frmLeadList
+            // 
+            this.AcceptButton = this.btnNew;
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1372, 751);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.btnHelp);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnClose);
+            this.Name = "frmLeadList";
+            this.Text = "Inquiry List";
+            this.Load += new System.EventHandler(this.frmLeadList_Load);
+            this.Controls.SetChildIndex(this.btnClose, 0);
+            this.Controls.SetChildIndex(this.btnClear, 0);
+            this.Controls.SetChildIndex(this.groupBox1, 0);
+            this.Controls.SetChildIndex(this.btnHelp, 0);
+            this.Controls.SetChildIndex(this.groupBox3, 0);
+            this.Controls.SetChildIndex(this.groupBox2, 0);
+            this.Controls.SetChildIndex(this.groupBox4, 0);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvInquiry)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFollwUps)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lblTotRec;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Button btnApply;
+        private System.Windows.Forms.DataGridView dgvInquiry;
+        private System.Windows.Forms.DataGridView dgvFollwUps;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FollowupByName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FollowupDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LeadFollowUpId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Remarks;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnImport;
+        private System.Windows.Forms.Button btnUploadCustomer;
+        private System.Windows.Forms.Button btnHelp;
+        internal System.Windows.Forms.ComboBox cmbreports;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnNew;
+        private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Button btnFollowUp;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button btnContactPerson;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LeadNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LeadDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CustomerName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ContactPerson;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Phone1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mobile;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Email;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Product;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Category;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SourceOfLead;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Status;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Remark;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EmpName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EmpAllTo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Budget;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NextFollowUpDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LeadStatus;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LeadBy;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Inquiry_AutoResponse;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LeadId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CompId1;
+    }
+}

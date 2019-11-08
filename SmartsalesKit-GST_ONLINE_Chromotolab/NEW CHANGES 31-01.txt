@@ -1,0 +1,19 @@
+Service order Receipt 1 Generate of Report rptServiceOrder
+
+Generate time---> Add Service invoice At movement Edit button To click display Expection
+ 
+if you used spare simply Edit to click Expresiion.
+ [X]  Unhandled exception has occurred in your application. If you click Continue, the application will 
+      ignore this error and attempt to continue. 
+      If you click Quit, the application will close immediately.
+
+   Column named QuotationId cannot be found.
+   Parameter name: columnName.
+
+
+As click on Creditnote of Menu ledger So noteresponding mode.
+
+
+
+ 
+

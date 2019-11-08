@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <connectionStrings>
+    <add name="DBConnectionString" connectionString="Data Source=OFFICEJP-PC\SQLEXPRESS2;Initial Catalog=CRM_FINAL;User Id=sa;Password=admin123"/>
+    <add name="DBConnectionString_Backup" connectionString="Data Source=OFFICEJP-PC\SQLEXPRESS2;Initial Catalog=JP_MasterDB;User ID=sa;Password=admin123"/> 
+  </connectionStrings>
+</configuration>

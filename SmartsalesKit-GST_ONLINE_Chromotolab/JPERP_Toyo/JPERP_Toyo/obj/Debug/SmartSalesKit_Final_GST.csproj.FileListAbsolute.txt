@@ -1,0 +1,1396 @@
+E:\Reshma 2016\GST UPDATE\Smart_Saleskit Without Privilege\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe.config
+E:\Reshma 2016\GST UPDATE\Smart_Saleskit Without Privilege\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.exe
+E:\Reshma 2016\GST UPDATE\Smart_Saleskit Without Privilege\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.pdb
+\\F-pc\e\Reshma 2016\GST UPDATE\Smart_Saleskit Without Privilege\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe.config
+\\F-pc\e\Reshma 2016\GST UPDATE\Smart_Saleskit Without Privilege\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.exe
+\\F-pc\e\Reshma 2016\GST UPDATE\Smart_Saleskit Without Privilege\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.pdb
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe.config
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.exe
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.pdb
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.pdb
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.dll
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.xml
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorReturnLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmVendorPPFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV_NEW.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmBackupEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmItemMR.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmCustomerPaymentReturnEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmExpenseFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmGodownFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashProgress.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashScreen.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csproj.GenerateResource.Cache
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe.config
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.exe
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.pdb
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.dll
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.dll
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Vbe.Interop.dll
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.xml
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.xml
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorReturnLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmVendorPPFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV_NEW.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmBackupEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmItemMR.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmCustomerPaymentReturnEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmExpenseFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmGodownFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashProgress.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashScreen.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csproj.GenerateResource.Cache
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.pdb
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csprojResolveAssemblyReference.cache
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csprojResolveAssemblyReference.cache
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe.config
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.exe
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.pdb
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.pdb
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.dll
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.dll
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Vbe.Interop.dll
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.xml
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.xml
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csprojResolveAssemblyReference.cache
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorReturnLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmVendorPPFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV_NEW.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmBackupEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmItemMR.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmCustomerPaymentReturnEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmExpenseFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmGodownFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashProgress.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashScreen.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csproj.GenerateResource.Cache
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe.config
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.exe
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.pdb
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.pdb
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.dll
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.xml
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csprojResolveAssemblyReference.cache
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorReturnLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmVendorPPFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV_NEW.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmBackupEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmItemMR.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmCustomerPaymentReturnEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmExpenseFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmGodownFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashProgress.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashScreen.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017 _ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csproj.GenerateResource.Cache
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe.config
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.exe
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.pdb
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe.config
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.exe
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.pdb
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.pdb
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.dll
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.dll
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Vbe.Interop.dll
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.xml
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.xml
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorReturnLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmVendorPPFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV_NEW.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmBackupEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmItemMR.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmCustomerPaymentReturnEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmExpenseFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmGodownFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashProgress.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashScreen.resources
+\\Arpitpc\gst final sw 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csproj.GenerateResource.Cache
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csprojResolveAssemblyReference.cache
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorReturnLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmVendorPPFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV_NEW.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmBackupEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmItemMR.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmCustomerPaymentReturnEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmExpenseFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmGodownFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashProgress.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashScreen.resources
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csproj.GenerateResource.Cache
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.pdb
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.dll
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\GST FINAL SW 2017\SmartsalesKit-GST_2017_ONLINE\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.xml
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe.config
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.exe
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.pdb
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.pdb
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.dll
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.dll
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Vbe.Interop.dll
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.xml
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.xml
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorReturnLOV.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmVendorPPFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV_NEW.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmBackupEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmItemMR.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmCustomerPaymentReturnEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteItemEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteItemEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmExpenseFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmGodownFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashProgress.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashScreen.resources
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csproj.GenerateResource.Cache
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe.config
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.exe
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit.pdb
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.exe
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\SmartSalesKit.pdb
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.dll
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\bin\Debug\office.xml
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorReturnLOV.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmVendorPPFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV_NEW.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmBackupEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Bank_Master.frmBankList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmItemMR.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialReturn.frmMaterialReturnList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.MaterialIssue.frmMaterialIssueList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseIndentRequest.frmPurchaseIndentList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPaymentReturn.frmVendorPaymentReturnList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmCustomerPaymentReturnEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPaymentReturn.frmVendorPaymentReturnList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteItemEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CreditNote.frmCreditNoteList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Currency.frmCurrencyList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteItemEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DebitNote.frmDebitNoteList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmExpenseFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmGodownFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashProgress.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.SplashScreen.resources
+E:\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csproj.GenerateResource.Cache
+\\F-pc\e\2018\SSK\SmartsalesKit-GST_ONLINE_Chromotolab\JPERP_Toyo\JPERP_Toyo\obj\Debug\SmartSalesKit_Final_GST.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+SELECT @l_BankID = AccountID From Account Where AccountName = @i_BankName
+		if @l_BankID>0
+		Begin
+		Delete From Ledger Where TransactionTypeID = 11 And TransactionID = @i_RecID
+		end

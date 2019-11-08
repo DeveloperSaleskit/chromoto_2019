@@ -1,0 +1,408 @@
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\bin\Debug\JPCRM.exe.config
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\bin\Debug\JPCRM.exe
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\bin\Debug\JPCRM.pdb
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\ResolveAssemblyReference.cache
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmCustomerFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmImportCustomerList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmLeadFollowup.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmCustomerEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmCustomerList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\CRM_UNITED.csproj.GenerateResource.Cache
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\JPCRM.exe
+D:\ALL PROJECT\2015\CRM_INVENTORY_MODULE - Copy (2)\JPERP_Toyo\JPERP_Toyo\obj\Debug\JPCRM.pdb
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\bin\Debug\JPCRM.exe.config
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\bin\Debug\JPCRM.exe
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\bin\Debug\JPCRM.pdb
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\ResolveAssemblyReference.cache
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmCustomerFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmImportCustomerList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmLeadFollowup.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmCustomerEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmCustomerList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\CRM_UNITED.csproj.GenerateResource.Cache
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\JPCRM.exe
+D:\ALL PROJECT\2015\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\JPCRM.pdb
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\bin\Debug\JPCRM.exe.config
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\JPCRM.exe
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\JPCRM.pdb
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\bin\Debug\JPCRM.exe
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\bin\Debug\JPCRM.pdb
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\ResolveAssemblyReference.cache
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.CompanyFYNSplash.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendPendingList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.DefaultLayoutForms.frmCustomerPPFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form1.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Form2.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmIndentLOV.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmMainMDI.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPersonSelect.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowup.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerFollowup.frmCustomerFollowupFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainFollowup.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerMain.frmCustomerMainList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmCustomerFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentItemEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Indent.frmIndentList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEdit.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemAdjustment.frmItemAdjustmentFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Help.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmTNCLOV.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmContacts.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmCustPendingList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmLead.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmQuickLinks.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmReminder.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.DefaultLayout.frmVendorPendingList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmCustomerLOV.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmItemLOV.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmLeadLOV.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmAccountMasterList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.AccountMaster.frmLedgerReport.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Commission.frmCommissionEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Company.frmCompanyEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.CustomerPayment.frmCustomerPaymentFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmImportCustomerList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmLeadFollowup.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmCon_Mail_Detail.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Email.frmEmailList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Employee.frmEmployeeFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Expense.frmExpenseList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Godown.frmGodownList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.BillingAddress.frmBillingAddress.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ContactPerson.frmContactPerson.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmAreaEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCityEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCountryEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmCSCAList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Country.frmStateEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmCustomerEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Customer.frmCustomerList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Item_Adjustment.frmItemAdjustList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemCategoryEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemClassEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemGroupEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmItemParentList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemParent.frmUOMEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemPriceList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemRegister.frmItemFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmAdjustStock.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ItemStock.frmItemStockList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadFollowup.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Lead.frmLeadList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PromoMail.frmPromoMailSend.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceItemEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.PurchaseInvoice.frmPurchaseInvoiceList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationFollowup.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationNew.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Quotation.frmQuotationItemEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceDispatchDetails.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceItemEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.SalesInvoice.frmSalesInvoiceList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceItemEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.ServiceModule.frmServiceModuleList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxClassList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TaxClass.frmTaxFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TermsNConditions.frmTermsNConditionsList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.TypeOfCall.frmTypeOfCallFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.User.frmUserFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Users.frmUserList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.VendorPayment.frmVendorPaymentList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorFilter.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorEntry.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUI.Vendor.frmVendorList.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Login.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.frmVendorLOV.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.GUIBase.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Properties.Resources.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Reports.frmReportViewer.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\Account.Splash.resources
+D:\nirali\CRM_UNITED\JPERP_Toyo\JPERP_Toyo\obj\Debug\CRM_UNITED.csproj.GenerateResource.Cache
+D:\ALL PROJECT\2015\CRM_SHRIJI_KRUPA\JPERP_Toyo\JPERP_Toyo\bin\Debug\JPCRM.exe.config
+D:\ALL PROJECT\2015\CRM_SHRIJI_KRUPA\JPERP_Toyo\JPERP_Toyo\obj\Debug\JPCRM.exe
+D:\ALL PROJECT\2015\CRM_SHRIJI_KRUPA\JPERP_Toyo\JPERP_Toyo\obj\Debug\JPCRM.pdb

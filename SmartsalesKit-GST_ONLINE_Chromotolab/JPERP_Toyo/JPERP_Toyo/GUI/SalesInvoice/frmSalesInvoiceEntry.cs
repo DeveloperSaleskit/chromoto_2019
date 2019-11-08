@@ -1,0 +1,3390 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using Account.BusinessLogic;
+using Account.Common;
+using Account.Validator;
+using System.Diagnostics;
+using System.IO;
+using System.Net.Mail;
+using System.Net;
+using System.Collections.Specialized;
+using EASendMail;
+
+namespace Account.GUI.SalesInvoice
+{
+    public partial class frmSalesInvoiceEntry : Account.GUIBase
+    {
+        #region "Variable Declaration..."
+
+        string dtdate;
+        string custcode;
+        Int16 AccCustID = 0;
+        int GodownID_Edit = 0;
+        CustomerMainBL objLeadBL1 = new CustomerMainBL();
+
+        LeadBL objLeadBLCUST = new LeadBL();
+
+
+        CommonSelectBL CommSelect = new CommonSelectBL();
+        CommonDeleteBL CommDelete = new CommonDeleteBL();
+        CommonListBL objList = new CommonListBL();
+        DataTable dtDocList = new DataTable();
+        SalesInvoiceBL objPOBL = new SalesInvoiceBL();
+        BusinessLogic.Common objCommon = new Account.BusinessLogic.Common();
+        DataAccess.DataAccess objDA = new DataAccess.DataAccess();
+        DataTable dtCustomer = new DataTable();
+        DataTable dtPIDetail = new DataTable();
+        Int64 _CustomerID = 0;
+        Int64 _leadID = 0;
+        Int64 _QuotationID = 0;
+        Int32 _cityID = 0;
+        long _PIID = 0;
+        Int64 _SaleId = 0;
+        int _Mode = 0;
+        decimal _ItemDiscAmt = 0;
+        string SelectedFileName = "";
+        decimal PreDisAmt = 0;
+        decimal PreExtraAmt = 0;
+        int STNC = 0;
+        Exception mException = null;
+        string mErrorMsg = "";
+        int _CompId = 0;
+        int CompId = 0;
+        int _resh = 0;
+
+        string _BONo = "";
+        DateTime _BODate = DateTime.Today.Date;
+        string _DNote = "";
+        DateTime _DNoteDate = DateTime.Today.Date;
+        string _SuRNo = "";
+        string _DDNo = "";
+        string _DT = "";
+        string _D = "";
+        DateTime _DtI = DateTime.Today.Date;
+        DateTime _DtR = DateTime.Today.Date;
+        string _TI = "";
+        string _TR = "";
+        string _ShipAdd = "";
+        string _ShipotherAdd = "";
+        Boolean IsPaid;
+        string IsAllTNC;
+        decimal TotalDisAmt;
+        DataTable dtContactDetail = new DataTable();
+        DataTable dtQContactDetail = new DataTable();
+        //------------------------
+
+        Int32 PIID = 0;
+        string mBONO = "";
+        DateTime mBODate = DateTime.Today.Date;
+        string mDNote = "";
+        DateTime mDNoteDate = DateTime.Today.Date;
+        string mSuRNo = "";
+        string mDDNo = "";
+        string mDT = "";
+        string mD = "";
+        string mTI = "";
+        string mTR = "";
+        string mShipAdd = "";
+        string mShipotherAdd = "";
+        DateTime mDtI = DateTime.Today.Date;
+        DateTime mDtR = DateTime.Today.Date;//--------------
+        DataTable dtblLOV = new DataTable();
+
+        string StrFilter = "";
+        DataView DV;
+
+        Int64 _UserID = 0;
+        DataTable dtblUser = new DataTable();
+        bool IsCustomer;
+        string LeadNo = "";
+        Int64 _CurrencyID;
+        bool IsFirstItem;
+        bool ISDispatchClick = false;
+        string BusinessType = "";
+        #endregion
+
+        #region "Form Events...."
+
+        public frmSalesInvoiceEntry(int Mode, Int64 PIID)
+        {
+            InitializeComponent();
+            _Mode = Mode;
+            _PIID = PIID;
+            _SaleId = PIID;
+        }
+
+        private void frmSalesInvoiceEntry_Load(object sender, EventArgs e)
+        {
+            AddHandlers(this);
+            SetControlsDefaults(this);
+            //DataValidator.SetDefaultDate(dtpPIDate, null, null);
+            objCommon.FillEmployeeCombo(cmbAttendedBy);
+            objCommon.FillEmpAllocatedToCombo(cmbEmpAllocatedTo);
+            objCommon.FillCurrencyCombo(cmbCurrency);
+            objCommon.FillBankCombo(cmbbankName);
+            cmbCategory.DropDownStyle = ComboBoxStyle.DropDown;
+            cmbCategory.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbCategory.AutoCompleteSource = AutoCompleteSource.ListItems;
+
+            //---default direct sale--------
+            grpItemDetail.Height = 296;
+            dgvPIDetail.Height = 247;
+
+            cmbAgainstCN.Text = "Direct Sale";
+            grpBankDetail.Enabled = false;
+            cmbMode.Enabled = false;
+            cmbMode.SelectedItem = "Cash";
+
+            dgvPIDetail.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dtDocList.Columns.Add("DocID");
+            dtDocList.Columns.Add("FileName");
+            dtDocList.Columns.Add("FullFileName");
+            dtDocList.Columns.Add("DocRemark");
+            dtDocList.Columns.Add("SaleID");
+            cmbType.SelectedIndex = 0;
+            objCommon.FillGodownCombo(cmbgodown);
+
+            txtextrachargestype.CharacterCasing = CharacterCasing.Normal;
+            txtECType2.CharacterCasing = CharacterCasing.Normal;
+            txtECType3.CharacterCasing = CharacterCasing.Normal;
+
+
+
+            if (_Mode == (int)Common.Constant.Mode.Insert)
+            {
+                LoadCustomerList();
+                LoadPIDetailList();
+                LoadList();
+
+                dtpReminder.Value = DateTime.Now;
+                dtpInstallation.Value = DateTime.Now;
+                dtpDCDate.Value = DateTime.Now;
+                dtpExtraReminder.Value = DateTime.Now;
+                dtpPIDate.Value = DateTime.Now;
+                dtpchequeDate.Value = DateTime.Now;
+                //txtPINo.Text = objCommon.AutoNumber("SI");
+                this.Text = "Sales Invoice - New";
+
+                cmbMode.SelectedItem = "Cash";
+                cmbEmpAllocatedTo.SelectedValue = CurrentUser.empId.ToString();
+                cmbAttendedBy.SelectedValue = CurrentUser.empId.ToString();
+            }
+            else if (_Mode == (int)Common.Constant.Mode.Modify)
+            {
+                Errcustname.Visible = false;
+                BindControl();
+                btnGeneratePI.Text = "Save";
+                btnCustomerLOV.Visible = false;
+                txtCustomer.ReadOnly = true;
+                this.Text = "Sales Invoice - Edit";
+                btnRegenrate.Visible = false;
+                //btnGeneratePI.Width = btnCancel.Width;
+                //btnGeneratePI.Location = new Point(btnGeneratePI.Location.X + 95, btnGeneratePI.Location.Y);
+                chkTNC.Enabled = false;
+                cmbType.Enabled = false;
+                txtCustomer.ReadOnly = true;
+                btnCustomerLOV.Visible = false;
+                cmbAgainstCN.Enabled = false;
+            }
+            else if (_Mode == (int)Common.Constant.Mode.Delete)
+            {
+                btnRegenrate.Visible = false;
+                BindControl();
+                btnCustomerLOV.Visible = false;
+                txtCustomer.ReadOnly = true;
+                lblDelMsg.Visible = true;
+                btnNew.Visible = false;
+                btnDelete.Visible = false;
+                SetReadOnlyControls(grpData);
+                btnGeneratePI.Text = "Yes";
+                btnGeneratePI.Tag = "Click to delete record;";
+                btnGeneratePI.Width = btnCancel.Width;
+                btnGeneratePI.Location = new Point(btnGeneratePI.Location.X + 95, btnGeneratePI.Location.Y);
+                btnCancel.Text = "No";
+                cmbAgainstCN.Enabled = false;
+                this.Text = "Sales Invoice - Delete";
+            }
+        }
+
+        public void LoadList()
+        {
+            try
+            {
+                NameValueCollection para = new NameValueCollection();
+                _CompId = CurrentCompany.CompId;
+                para.Add("@i_CompId", CurrentCompany.CompId.ToString());
+                para.Add("@i_UserID", CurrentUser.UserID.ToString());
+
+                dtblLOV = objList.ListOfRecord("usp_Customer_Quotation_LOV", para, "Customer LOV - LoadList");
+
+                txtCustomer.AutoCompleteSource = AutoCompleteSource.CustomSource;
+                txtCustomer.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                AutoCompleteStringCollection Data = new AutoCompleteStringCollection();
+
+                if (objList.Exception == null)
+                {
+
+                    for (int i = 0; i < dtblLOV.Rows.Count; i++)
+                    {
+                        Data.Add(dtblLOV.Rows[i]["CustomerName"].ToString());
+                    }
+                    txtCustomer.AutoCompleteCustomSource = Data;
+                }
+                else
+                {
+                    MessageBox.Show(objList.Exception.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Customer LOV", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+
+        #endregion
+
+        #region "Public Methods..."
+
+        private void LoadPIDetailList()
+        {
+            try
+            {
+                DataColumn clmGodownID = new DataColumn("GodownID");
+                clmGodownID.DataType = System.Type.GetType("System.Int64");
+                dtPIDetail.Columns.Add(clmGodownID);
+
+                DataColumn clmItemID = new DataColumn("ItemID");
+                clmItemID.DataType = System.Type.GetType("System.Int64");
+                dtPIDetail.Columns.Add(clmItemID);
+
+                DataColumn clmItemName = new DataColumn("ItemName");
+                clmItemName.DataType = System.Type.GetType("System.String");
+                dtPIDetail.Columns.Add(clmItemName);
+
+                DataColumn clmItemDesc = new DataColumn("ItemDesc");
+                clmItemDesc.DataType = System.Type.GetType("System.String");
+                dtPIDetail.Columns.Add(clmItemDesc);
+
+                DataColumn clmUOM = new DataColumn("UOM");
+                clmUOM.DataType = System.Type.GetType("System.String");
+                dtPIDetail.Columns.Add(clmUOM);
+
+                DataColumn clmCurrencyID = new DataColumn("CurrencyID");
+                clmCurrencyID.DataType = System.Type.GetType("System.Int64");
+                dtPIDetail.Columns.Add(clmCurrencyID);
+
+                DataColumn clmCurrency = new DataColumn("Currency");
+                clmCurrency.DataType = System.Type.GetType("System.String");
+                dtPIDetail.Columns.Add(clmCurrency);
+
+                DataColumn clmRate = new DataColumn("Rate");
+                clmRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmRate);
+
+                DataColumn clmQty = new DataColumn("Qty");
+                clmQty.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmQty);
+
+                DataColumn clmTaxClassID = new DataColumn("TaxClassID");
+                clmTaxClassID.DataType = System.Type.GetType("System.Int64");
+                dtPIDetail.Columns.Add(clmTaxClassID);
+
+                DataColumn clmTotalAmount = new DataColumn("TotalAmount");
+                clmTotalAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmTotalAmount);
+
+                DataColumn clmServiceRate = new DataColumn("ServiceRate");
+                clmServiceRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmServiceRate);
+
+                DataColumn clmServiceAmount = new DataColumn("ServiceAmount");
+                clmServiceAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmServiceAmount);
+
+                DataColumn clmExciseRate = new DataColumn("ExciseRate");
+                clmExciseRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmExciseRate);
+
+                DataColumn clmExciseAmount = new DataColumn("ExciseAmount");
+                clmExciseAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmExciseAmount);
+
+                DataColumn clmECessRate = new DataColumn("ECessRate");
+                clmECessRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmECessRate);
+
+                DataColumn clmECessAmount = new DataColumn("ECessAmount");
+                clmECessAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmECessAmount);
+
+                DataColumn clmHECessRate = new DataColumn("HECessRate");
+                clmHECessRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmHECessRate);
+
+                DataColumn clmHECessAmount = new DataColumn("HECessAmount");
+                clmHECessAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmHECessAmount);
+
+                DataColumn clmAmountAfterExcise = new DataColumn("AmountAfterExcise");
+                clmAmountAfterExcise.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmAmountAfterExcise);
+
+                DataColumn clmCSTRate = new DataColumn("CSTRate");
+                clmCSTRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmCSTRate);
+
+                DataColumn clmCSTAmount = new DataColumn("CSTAmount");
+                clmCSTAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmCSTAmount);
+
+                DataColumn clmVATRate = new DataColumn("VATRate");
+                clmVATRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmVATRate);
+
+                DataColumn clmVATAmount = new DataColumn("VATAmount");
+                clmVATAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmVATAmount);
+
+                DataColumn clmAVATRate = new DataColumn("AVATRate");
+                clmAVATRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmAVATRate);
+
+                DataColumn clmAVATAmount = new DataColumn("AVATAmount");
+                clmAVATAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmAVATAmount);
+
+                DataColumn clmSBCessRate = new DataColumn("SBCessRate");
+                clmSBCessRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmSBCessRate);
+
+                DataColumn clmSBCessAmount = new DataColumn("SBCessAmount");
+                clmSBCessAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmSBCessAmount);
+
+                DataColumn clmExtraTaxRate = new DataColumn("ExtraTaxRate");
+                clmExtraTaxRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmExtraTaxRate);
+
+                DataColumn clmExtraTaxAmount = new DataColumn("ExtraTaxAmount");
+                clmExtraTaxAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmExtraTaxAmount);
+
+                DataColumn clmNetAmount = new DataColumn("NetAmount");
+                clmNetAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmNetAmount);
+
+                DataColumn clmDiscount = new DataColumn("Discount");
+                clmDiscount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmDiscount);
+
+                DataColumn clmDiscountAmt = new DataColumn("DiscountAmt");
+                clmDiscountAmt.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmDiscountAmt);
+
+
+
+
+
+                DataColumn clmSGSTRate = new DataColumn("SGSTRate");
+                clmSGSTRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmSGSTRate);
+
+                DataColumn clmSGSTAmount = new DataColumn("SGSTAmount");
+                clmSGSTAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmSGSTAmount);
+
+
+                DataColumn clmCGSTRate = new DataColumn("CGSTRate");
+                clmCGSTRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmCGSTRate);
+
+                DataColumn clmCGSTAmount = new DataColumn("CGSTAmount");
+                clmCGSTAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmCGSTAmount);
+
+
+
+                DataColumn clmIGSTRate = new DataColumn("IGSTRate");
+                clmIGSTRate.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmIGSTRate);
+
+                DataColumn clmIGSTAmount = new DataColumn("IGSTAmount");
+                clmIGSTAmount.DataType = System.Type.GetType("System.Decimal");
+                dtPIDetail.Columns.Add(clmIGSTAmount);
+
+
+
+                ArrangePIDetailGridView();
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Sales Invoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void LoadContactDetailList()
+        {
+            try
+            {
+                DataColumn clmContactTitle = new DataColumn("ContactTitle");
+                clmContactTitle.DataType = System.Type.GetType("System.String");
+                dtContactDetail.Columns.Add(clmContactTitle);
+
+                DataColumn clmContactName = new DataColumn("ContactName");
+                clmContactName.DataType = System.Type.GetType("System.String");
+                dtContactDetail.Columns.Add(clmContactName);
+
+                DataColumn clmDesignation = new DataColumn("Designation");
+                clmDesignation.DataType = System.Type.GetType("System.String");
+                dtContactDetail.Columns.Add(clmDesignation);
+
+                DataColumn clmPhone1 = new DataColumn("Phone1");
+                clmPhone1.DataType = System.Type.GetType("System.String");
+                dtContactDetail.Columns.Add(clmPhone1);
+
+                DataColumn clmPhone2 = new DataColumn("Phone2");
+                clmPhone2.DataType = System.Type.GetType("System.String");
+                dtContactDetail.Columns.Add(clmPhone2);
+
+                DataColumn clmMobile = new DataColumn("Mobile");
+                clmMobile.DataType = System.Type.GetType("System.String");
+                dtContactDetail.Columns.Add(clmMobile);
+
+                DataColumn clmEmail = new DataColumn("Email");
+                clmEmail.DataType = System.Type.GetType("System.String");
+                dtContactDetail.Columns.Add(clmEmail);
+
+                DataColumn clmDoB = new DataColumn("DoB");
+                clmDoB.DataType = System.Type.GetType("System.DateTime");
+                dtContactDetail.Columns.Add(clmDoB);
+
+                DataColumn clmDoA = new DataColumn("DoA");
+                clmDoA.DataType = System.Type.GetType("System.DateTime");
+                dtContactDetail.Columns.Add(clmDoA);
+
+                //DataColumn clmServiceRate = new DataColumn("ServiceRate");
+                //clmServiceRate.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmServiceRate);
+
+                //DataColumn clmServiceAmount = new DataColumn("ServiceAmount");
+                //clmServiceAmount.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmServiceAmount);
+
+                //DataColumn clmExciseRate = new DataColumn("ExciseRate");
+                //clmExciseRate.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmExciseRate);
+
+                //DataColumn clmExciseAmount = new DataColumn("ExciseAmount");
+                //clmExciseAmount.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmExciseAmount);
+
+                //DataColumn clmECessRate = new DataColumn("ECessRate");
+                //clmECessRate.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmECessRate);
+
+                //DataColumn clmECessAmount = new DataColumn("ECessAmount");
+                //clmECessAmount.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmECessAmount);
+
+                //DataColumn clmHECessRate = new DataColumn("HECessRate");
+                //clmHECessRate.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmHECessRate);
+
+                //DataColumn clmHECessAmount = new DataColumn("HECessAmount");
+                //clmHECessAmount.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmHECessAmount);
+
+                //DataColumn clmAmountAfterExcise = new DataColumn("AmountAfterExcise");
+                //clmAmountAfterExcise.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmAmountAfterExcise);
+
+                //DataColumn clmCSTRate = new DataColumn("CSTRate");
+                //clmCSTRate.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmCSTRate);
+
+                //DataColumn clmCSTAmount = new DataColumn("CSTAmount");
+                //clmCSTAmount.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmCSTAmount);
+
+                //DataColumn clmVATRate = new DataColumn("VATRate");
+                //clmVATRate.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmVATRate);
+
+                //DataColumn clmVATAmount = new DataColumn("VATAmount");
+                //clmVATAmount.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmVATAmount);
+
+                //DataColumn clmAVATRate = new DataColumn("AVATRate");
+                //clmAVATRate.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmAVATRate);
+
+                //DataColumn clmAVATAmount = new DataColumn("AVATAmount");
+                //clmAVATAmount.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmAVATAmount);
+
+                //DataColumn clmNetAmount = new DataColumn("NetAmount");
+                //clmNetAmount.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmNetAmount);
+
+                //DataColumn clmDiscount = new DataColumn("Discount");
+                //clmNetAmount.DataType = System.Type.GetType("System.Decimal");
+                //dtPIDetail.Columns.Add(clmDiscount);
+
+
+                //ArrangePIDetailGridView();
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Sales Invoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+
+        private void ArrangePIDetailGridView()
+        {
+            try
+            {
+                dgvPIDetail.Columns["GodownID"].DataPropertyName = dtPIDetail.Columns["GodownID"].ToString();
+                dgvPIDetail.Columns["ItemID"].DataPropertyName = dtPIDetail.Columns["ItemID"].ToString();
+                dgvPIDetail.Columns["ItemName"].DataPropertyName = dtPIDetail.Columns["ItemName"].ToString();
+                dgvPIDetail.Columns["ItemDesc"].DataPropertyName = dtPIDetail.Columns["ItemDesc"].ToString();
+                dgvPIDetail.Columns["Qty"].DataPropertyName = dtPIDetail.Columns["Qty"].ToString();
+                dgvPIDetail.Columns["UOM"].DataPropertyName = dtPIDetail.Columns["UOM"].ToString();
+                dgvPIDetail.Columns["Rate"].DataPropertyName = dtPIDetail.Columns["Rate"].ToString();
+                dgvPIDetail.Columns["Currency"].DataPropertyName = dtPIDetail.Columns["Currency"].ToString();
+                dgvPIDetail.Columns["CurrencyID"].DataPropertyName = dtPIDetail.Columns["CurrencyID"].ToString();
+                dgvPIDetail.Columns["TaxClassID"].DataPropertyName = dtPIDetail.Columns["TaxClassID"].ToString();
+                dgvPIDetail.Columns["TotalAmount"].DataPropertyName = dtPIDetail.Columns["TotalAmount"].ToString();
+                dgvPIDetail.Columns["ServiceAmount"].DataPropertyName = dtPIDetail.Columns["ServiceAmount"].ToString();
+                dgvPIDetail.Columns["ExciseAmount"].DataPropertyName = dtPIDetail.Columns["ExciseAmount"].ToString();
+                dgvPIDetail.Columns["ECessAmount"].DataPropertyName = dtPIDetail.Columns["ECessAmount"].ToString();
+                dgvPIDetail.Columns["HECessAmount"].DataPropertyName = dtPIDetail.Columns["HECessAmount"].ToString();
+                dgvPIDetail.Columns["AmountAfterExcise"].DataPropertyName = dtPIDetail.Columns["AmountAfterExcise"].ToString();
+                dgvPIDetail.Columns["CSTAmount"].DataPropertyName = dtPIDetail.Columns["CSTAmount"].ToString();
+                dgvPIDetail.Columns["VATAmount"].DataPropertyName = dtPIDetail.Columns["VATAmount"].ToString();
+                dgvPIDetail.Columns["AVATAmount"].DataPropertyName = dtPIDetail.Columns["AVATAmount"].ToString();
+                dgvPIDetail.Columns["SBCessAmount"].DataPropertyName = dtPIDetail.Columns["SBCessAmount"].ToString();
+                dgvPIDetail.Columns["ExtraTaxAmount"].DataPropertyName = dtPIDetail.Columns["ExtraTaxAmount"].ToString();
+
+                dgvPIDetail.Columns["NetAmount"].DataPropertyName = dtPIDetail.Columns["NetAmount"].ToString();
+                dgvPIDetail.Columns["Discount"].DataPropertyName = dtPIDetail.Columns["Discount"].ToString();
+
+
+                dgvPIDetail.Columns["SGSTAmount"].DataPropertyName = dtPIDetail.Columns["SGSTAmount"].ToString();
+                dgvPIDetail.Columns["CGSTAmount"].DataPropertyName = dtPIDetail.Columns["CGSTAmount"].ToString();
+                dgvPIDetail.Columns["IGSTAmount"].DataPropertyName = dtPIDetail.Columns["IGSTAmount"].ToString();
+
+                //dgvPIDetail.Columns["DiscountAmt"].DataPropertyName = dtPIDetail.Columns["DiscountAmt"].ToString();
+
+
+                for (int i = 0; i < dgvPIDetail.Columns.Count; i++)
+                {
+                    dgvPIDetail.Columns[i].SortMode = DataGridViewColumnSortMode.NotSortable;
+                }
+
+                if (dgvPIDetail.Rows.Count > 0)
+                {
+
+                    //if (_Mode == (int)Common.Constant.Mode.Insert)
+                    //{
+                    for (int i = 0; i < dgvPIDetail.Rows.Count; i++)
+                    {
+                        cmbCurrency.SelectedValue = dgvPIDetail.Rows[0].Cells["CurrencyID"].Value.ToString();
+                    }
+                    //}
+
+                    //if (_Mode == (int)Common.Constant.Mode.Modify)
+                    //{
+                    //    for (int i = 1; i < dgvPIDetail.Rows.Count; i++)
+                    //    {
+                    //        cmbCurrency.SelectedValue = dgvPIDetail.Rows[dgvPIDetail.Rows.Count - 1].Cells["CurrencyID"].Value.ToString();
+                    //    }
+                    //}
+                }
+
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Sales Invoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void LoadCustomerList()
+        {
+            try
+            {
+                NameValueCollection para1 = new NameValueCollection();
+                _CompId = CurrentCompany.CompId;
+                para1.Add("@i_CompId", CurrentCompany.CompId.ToString());
+                para1.Add("@i_UserID", CurrentUser.UserID.ToString());
+
+                dtCustomer = objList.ListOfRecord("usp_Customer_LOV", para1, "Sales Invoice - LoadCustomerList");
+
+                if (objList.Exception == null)
+                {
+                    txtCustomer.AutoCompleteSource = AutoCompleteSource.CustomSource;
+                    txtCustomer.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                    AutoCompleteStringCollection Data = new AutoCompleteStringCollection();
+                    for (int i = 0; i < dtCustomer.Rows.Count; i++)
+                    {
+                        Data.Add(dtCustomer.Rows[i]["CustomerName"].ToString());
+                    }
+                    txtCustomer.AutoCompleteCustomSource = Data;
+                }
+                else
+                {
+                    MessageBox.Show(objList.Exception.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Sales Invoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        public void CalculateNetAmount()
+        {
+            try
+            {
+                if (dtPIDetail.Rows.Count > 0)
+                {
+                    txtAmount.Text = "";
+                    txtAmount.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(TotalAmount)", "")).ToString("#0.00");
+
+
+
+                    txtSGSTAmt.Text = "";
+                    txtSGSTAmt.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(SGSTAmount)", "")).ToString("#0.00");
+
+                    txtCGSTAmt.Text = "";
+                    txtCGSTAmt.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(CGSTAmount)", "")).ToString("#0.00");
+
+                    txtIGSTAmt.Text = "";
+                    txtIGSTAmt.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(IGSTAmount)", "")).ToString("#0.00");
+
+
+
+                    txtServiceAmt.Text = "";
+                    txtServiceAmt.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(ServiceAmount)", "")).ToString("#0.00");
+                    txtExciseAmt.Text = "";
+                    txtExciseAmt.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(ExciseAmount)", "")).ToString("#0.00");
+                    txtEduCessAmt.Text = "";
+                    txtEduCessAmt.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(ECessAmount)", "")).ToString("#0.00");
+                    txtHEduCessAmt.Text = "";
+                    txtHEduCessAmt.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(HECessAmount)", "")).ToString("#0.00");
+                    txtAmtwithExcise.Text = "";
+                    txtAmtwithExcise.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(AmountAfterExcise)", "")).ToString("#0.00");
+                    txtCSTAmt.Text = "";
+                    txtCSTAmt.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(CSTAmount)", "")).ToString("#0.00");
+                    txtVATAmt.Text = "";
+                    txtVATAmt.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(VATAmount)", "")).ToString("#0.00");
+                    txtAVATAmt.Text = "";
+                    txtAVATAmt.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(AVATAmount)", "")).ToString("#0.00");
+
+                    txtSBCessAmount.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(SBCessAmount)", "")).ToString("#0.00");
+                    txtExtraTax.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(ExtraTaxAmount)", "")).ToString("#0.00");
+
+                    string discount = "";
+                    discount = Convert.ToDecimal(dtPIDetail.Compute("sum(Discount)", "")).ToString("#0.00");
+                    //string discountAmt = "";
+                    //discountAmt = Convert.ToDecimal(dtPIDetail.Compute("sum(DiscountAmt)", "")).ToString("#0.00");
+                    txtNetAmount.Text = "";
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        if (Convert.ToDecimal(txtDiscount.Text) > 0)
+                        {
+                            txtNetAmount.Text = (Convert.ToDecimal(dtPIDetail.Compute("sum(NetAmount)", ""))).ToString("#0.00");
+                            if (txtextracharges.Text != null)
+                            {
+                                //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text)).ToString();
+                                txtNetAmount.Text = ((Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text) + Convert.ToDecimal(txtextracharges2.Text) + Convert.ToDecimal(txtextracharges3.Text)).ToString("#0.00"));
+                            }
+                        }
+                        else
+                        {
+                            txtNetAmount.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(NetAmount)", "")).ToString("#0.00");
+                            if (txtextracharges.Text != null)
+                            {
+                                //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text)).ToString();
+                                txtNetAmount.Text = ((Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text) + Convert.ToDecimal(txtextracharges2.Text) + Convert.ToDecimal(txtextracharges3.Text)).ToString("#0.00"));
+                            }
+                            //if (txtextracharges2.Text != null)
+                            //{
+                            //    //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text)).ToString();
+                            //    txtNetAmount.Text = ((Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges2.Text)).ToString());
+                            //}
+                            //if (txtextracharges3.Text != null)
+                            //{
+                            //    //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text)).ToString();
+                            //    txtNetAmount.Text = ((Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges3.Text)).ToString());
+                            //}
+                        }
+                        //if()
+                    }
+                    else
+                    {
+                        txtNetAmount.Text = Convert.ToDecimal(dtPIDetail.Compute("sum(NetAmount)", "")).ToString("#0.00");
+                        if (txtextracharges.Text != null)
+                        {
+                            //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text)).ToString();
+                            txtNetAmount.Text = ((Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text) + Convert.ToDecimal(txtextracharges2.Text) + Convert.ToDecimal(txtextracharges3.Text)).ToString("#0.00"));
+                        }
+                    }
+
+                    if (Convert.ToDecimal(discount) > 0)
+                    {
+                        //txtDiscount.Text = discount.ToString();
+                        txtDiscount.Text = "";
+                        txtDiscount.Text = (Convert.ToDecimal(txtAmount.Text) - Convert.ToDecimal(txtNetAmount.Text)).ToString("#0.00");
+                        //_ItemDiscAmt = discountAmt;
+                    }
+
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Sales Invoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        public void BindControl()
+        {
+            try
+            {
+                DataSet ds = new DataSet();
+                DataSet ds1 = new DataSet();
+                ds = CommSelect.SelectDataSetRecord(_PIID, "usp_SalesInvoice_Select", "SalesInvoice - BindControl");
+                ds1 = CommSelect.SelectDataSetRecord(_SaleId, "usp_SaleDocList_List", "SalesInvoice - BindControl");
+                if (CommSelect.Exception == null)
+                {
+                    if (CommSelect.ErrorMessage == "")
+                    {
+                        if (ds.Tables[1].Rows.Count > 0)
+                        {
+                            dgvPIDetail.AutoGenerateColumns = false;
+                            dgvPIDetail.DataSource = ds.Tables[1];
+                            dtPIDetail = ds.Tables[1];
+                            ArrangePIDetailGridView();
+                        }
+
+                        if (ds.Tables[4].Rows.Count > 0)
+                        {
+                            dtContactDetail = ds.Tables[4].DefaultView.ToTable();
+                        }
+
+                        if (ds.Tables[0].Rows.Count > 0)
+                        {
+                            txtPINo.Text = ds.Tables[0].Rows[0]["SalesCode"].ToString();
+                            _CustomerID = Convert.ToInt64(ds.Tables[0].Rows[0]["CustomerID"]);
+                            dtpPIDate.Value = Convert.ToDateTime(ds.Tables[0].Rows[0]["SalesDate"]);
+
+                            dtpDCDate.Value = Convert.ToDateTime(ds.Tables[0].Rows[0]["DCDate"]);
+                            txtCustomer.Text = ds.Tables[0].Rows[0]["CustomerName"].ToString();
+                            txtDuedays.Text = ds.Tables[0].Rows[0]["DueDays"].ToString();
+                            //   dtpDueDate.Value = Convert.ToDateTime(ds.Tables[0].Rows[0]["DueDate"]);
+                            txtNarration.Text = ds.Tables[0].Rows[0]["Narration"].ToString();
+                            txtPaidAmount.Text = ds.Tables[0].Rows[0]["PaidAmount"].ToString();
+                            txtDiscount.Text = ds.Tables[0].Rows[0]["Discount"].ToString();
+                            txtDicAmt.Text = ds.Tables[0].Rows[0]["TotalDiscAmt"].ToString();
+                            //    txtSrNo.Text = ds.Tables[0].Rows[0]["SrNo"].ToString();
+                            //    cmbgodown.SelectedValue = ds.Tables[0].Rows[0]["GodownID"].ToString();
+                            dtpInstallation.Value = Convert.ToDateTime(ds.Tables[0].Rows[0]["InstallationDate"]);
+                            dtpReminder.Value = Convert.ToDateTime(ds.Tables[0].Rows[0]["ReminderDate"]);
+                            txtNoOfServices.Text = ds.Tables[0].Rows[0]["NoofServices"].ToString();
+                            //    cmbTypeofSale.SelectedItem = ds.Tables[0].Rows[0]["TypeOfSale"].ToString();
+                            cmbAttendedBy.SelectedValue = ds.Tables[0].Rows[0]["EmpID"].ToString();
+
+                            txtextracharges.Text = ds.Tables[0].Rows[0]["ExtraCharges"].ToString();
+                            txtextrachargestype.Text = ds.Tables[0].Rows[0]["ExtraChargesType"].ToString();
+                            txtTIN.Text = ds.Tables[0].Rows[0]["TIN"].ToString();
+                            txtRec.Text = ds.Tables[0].Rows[0]["RecDay"].ToString();
+                            cmbType.Text = ds.Tables[0].Rows[0]["Type"].ToString();
+                            txtShippingAdd.Text = ds.Tables[0].Rows[0]["ShippingAdd"].ToString();
+                            txtAddress1.Text = ds.Tables[0].Rows[0]["Address"].ToString();
+                            txtNetAmount.Text = ds.Tables[0].Rows[0]["NetAmount"].ToString();
+                            _BONo = ds.Tables[0].Rows[0]["BONo"].ToString();
+                            _BODate = Convert.ToDateTime(ds.Tables[0].Rows[0]["BODate"].ToString());
+                            _DNote = ds.Tables[0].Rows[0]["DNote"].ToString();
+                            _DNoteDate = Convert.ToDateTime(ds.Tables[0].Rows[0]["DNoteDate"].ToString());
+                            _SuRNo = ds.Tables[0].Rows[0]["SuRNo"].ToString();
+                            _DDNo = ds.Tables[0].Rows[0]["DDNo"].ToString();
+                            _DT = ds.Tables[0].Rows[0]["DT"].ToString();
+                            _D = ds.Tables[0].Rows[0]["D"].ToString();
+                            _DtI = Convert.ToDateTime(ds.Tables[0].Rows[0]["DtI"].ToString());
+                            _DtR = Convert.ToDateTime(ds.Tables[0].Rows[0]["DtR"].ToString());
+                            _TI = ds.Tables[0].Rows[0]["TI"].ToString();
+                            _TR = ds.Tables[0].Rows[0]["TR"].ToString();
+                            _ShipAdd = ds.Tables[0].Rows[0]["ShippingAdd"].ToString();
+                            _ShipotherAdd = ds.Tables[0].Rows[0]["ShippingotherAdd"].ToString();
+                            txtcc.Text = ds.Tables[0].Rows[0]["CC"].ToString();
+                            txtbcc.Text = ds.Tables[0].Rows[0]["BCC"].ToString();
+                            txtCustInvoiceNo.Text = ds.Tables[0].Rows[0]["CustInvoiceNo"].ToString();
+                            cmbEmpAllocatedTo.SelectedValue = ds.Tables[0].Rows[0]["EmpAllToID"].ToString();
+                            cmbCategory.Text = ds.Tables[0].Rows[0]["Category"].ToString();
+                            cmbStatus.Text = ds.Tables[0].Rows[0]["InterestLevel"].ToString();
+
+                            txtNetAmount.Text = ds.Tables[0].Rows[0]["NetAmount"].ToString();
+                            dtpExtraReminder.Value = Convert.ToDateTime(ds.Tables[0].Rows[0]["dtExtraReminder"]);
+                            txtExtraReminder.Text = ds.Tables[0].Rows[0]["ExtraReminder"].ToString();
+                            txtextracharges2.Text = ds.Tables[0].Rows[0]["ExtraCharges2"].ToString();
+                            txtECType2.Text = ds.Tables[0].Rows[0]["ExtraChargesType2"].ToString();
+                            txtextracharges3.Text = ds.Tables[0].Rows[0]["ExtraCharges3"].ToString();
+                            txtECType3.Text = ds.Tables[0].Rows[0]["ExtraChargesType3"].ToString();
+                            txtCustInvoiceNo.Text = ds.Tables[0].Rows[0]["CustInvoiceNo"].ToString();
+                            LeadNo = ds.Tables[0].Rows[0]["LeadNo"].ToString();
+                            if (ds.Tables[0].Rows[0]["BusinessType"].ToString().Equals("B2C"))
+                            {
+                                cmbBusinessType.SelectedIndex = 2;
+                            }
+                            else if (ds.Tables[0].Rows[0]["BusinessType"].ToString().Equals("B2B"))
+                            {
+                                cmbBusinessType.SelectedIndex = 1;
+                            }
+                            if (ds.Tables[0].Rows[0]["IsCustomer"].ToString() == "True")
+                            {
+                                IsCustomer = true;
+                            }
+                            else
+                            {
+                                IsCustomer = false;
+                            }
+                            txtChallanNo.Text = ds.Tables[0].Rows[0]["ChallanNo"].ToString();
+
+                            txtCNoutstand.Text = ds.Tables[0].Rows[0]["CreditOutstanding"].ToString();
+                            txtRemainingCN.Text = ds.Tables[0].Rows[0]["RemainingCredit"].ToString();
+                            txtAdjCN.Text = ds.Tables[0].Rows[0]["AdjustedCredit"].ToString();
+                            cmbAgainstCN.Text = ds.Tables[0].Rows[0]["IsAgainstCredit"].ToString();
+
+                            cmbbankName.Text = ds.Tables[0].Rows[0]["BankName"].ToString();
+                            txtChequeNo.Text = ds.Tables[0].Rows[0]["ChequeNo"].ToString();
+                            dtpchequeDate.Value = Convert.ToDateTime(ds.Tables[0].Rows[0]["ChequeDate"].ToString());
+                            txtCustomerBankName.Text = ds.Tables[0].Rows[0]["CustomerBankName"].ToString();
+
+                            txtemail.Text = ds.Tables[0].Rows[0]["Email"].ToString();
+                            txtmobile.Text = ds.Tables[0].Rows[0]["Mobile"].ToString();
+                            txtcontactperson.Text = ds.Tables[0].Rows[0]["ContactPerson"].ToString();
+
+                            if (Convert.ToDecimal(txtPaidAmount.Text) > 0)
+                            {
+                                grpBankDetail.Enabled = true;
+                                cmbMode.Enabled = true;
+                            }
+                            else
+                            {
+                                grpBankDetail.Enabled = false;
+                                cmbMode.Enabled = false;
+                            }
+
+                            if (txtChequeNo.Text != "")
+                            {
+                                grpBankDetail.Enabled = true;
+                                cmbMode.SelectedItem = "Cheque";
+                            }
+                            else
+                            {
+                                grpBankDetail.Enabled = false;
+                                cmbMode.SelectedItem = "Cash";
+                            }
+
+                            // dtpchequeDate.Value = Convert.ToDateTime(ds.Tables[0].Rows[0]["ChequeDate"].ToString());
+
+                            //cmbgodown.SelectedValue = ds.Tables[0].Rows[0]["GoDownID"].ToString();
+                            CalculateNetAmount();
+                        }
+                        if (ds.Tables[2] != null && ds.Tables[2].Rows.Count > 0)
+                        {
+
+                            foreach (DataRow DRow in ds.Tables[2].Rows)
+                            {
+                                DataRow dr = dtDocList.NewRow();
+                                dr["DocID"] = DRow["DocID"].ToString();
+                                dr["FileName"] = DRow["DocName"].ToString();
+                                dr["FullFileName"] = DRow["DocName"].ToString();
+                                dr["DocRemark"] = DRow["Remarks"].ToString();
+                                dr["SaleID"] = DRow["SaleID"].ToString();
+                                dtDocList.Rows.Add(dr);
+                            }
+                            ArrangeDocumentGridView();
+                            dgvCountry.AutoGenerateColumns = false;
+                            dgvCountry.DataSource = dtDocList;
+                            ArrangeDocumentGridView();
+                        }
+                        //------------------------- new contact-------------
+                        NameValueCollection para = new NameValueCollection();
+                        para.Add("@i_Code", txtPINo.Text);
+                        para.Add("@i_CompID", CurrentCompany.CompId.ToString());
+                        if (dtContactDetail.Columns.Count > 0)
+                        {
+
+                        }
+                        else
+                        {
+                            LoadContactDetailList();
+                        }
+
+                        dtQContactDetail = objDA.ExecuteDataTableSP("usp_SaleContact_Select", para, false, ref mException, ref mErrorMsg, "Quotation Contact - Select");
+                        if (dtQContactDetail != null)
+                        { }
+                        //------------------------- new contact-------------
+
+                    }
+                    else
+                    {
+                        MessageBox.Show(CommSelect.ErrorMessage);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show(CommSelect.Exception.Message.ToString());
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("SalesInvoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        public void DeletePI()
+        {
+            try
+            {
+                CommDelete.DeleteRecordWithBank(_PIID, cmbbankName.Text, "usp_SalesInvoice_Delete", "SalesInvoice - Delete");
+                if (CommDelete.Exception == null)
+                {
+                    if (CommDelete.ErrorMessage != "")
+                    {
+                        lblErrorMessage.Text = CommDelete.ErrorMessage;
+                        // ReturnValue = false;
+                    }
+                    else
+                    {
+                        lblErrorMessage.Text = "No error";
+                        this.Dispose();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show(CommDelete.Exception.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("SalesInvoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        #endregion
+
+        #region "Button Event..."
+
+        private void btnRegenrate_Click(object sender, EventArgs e)
+        {
+            txtPINo.Text = objCommon.AutoNumber("SI");
+        }
+
+        private void btnItemLOV_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                NameValueCollection para1 = new NameValueCollection();
+                _CompId = CurrentCompany.CompId;
+                para1.Add("@i_CompId", CurrentCompany.CompId.ToString());
+                para1.Add("@i_UserID", CurrentUser.UserID.ToString());
+
+                DataTable dtquotation = new DataTable();
+                frmCustomerLOV fLOV = new frmCustomerLOV(CurrentCompany.CompId, "usp_Customer_Quotation_LOV", para1);
+                fLOV.Text = "List Of Customer";
+                fLOV.ShowDialog();
+                txtCustomer.Text = fLOV.CustomerName;
+                _CustomerID = fLOV.CustomerID;
+                _QuotationID = fLOV.QuotationID;
+                _leadID = fLOV.LeadID;
+                _cityID = Convert.ToInt32(fLOV.CityID);
+                txtemail.Text = fLOV.Email;
+                txtAddress1.Text = fLOV.Address;
+                txtcontactperson.Text = fLOV.ContactPerson;
+                txtmobile.Text = fLOV.MobileNo;
+                IsCustomer = fLOV.IsCustomer;
+                LeadNo = fLOV.CustomerCode;
+
+
+                // cmbCategory.Text = fLOV.Category;
+                //cmbCategory.Text = fLOV.Category.ToString();
+                //cmbCategory.SelectedValue = fLOV.Category.ToString();
+                cmbAttendedBy.SelectedValue = fLOV.EmpID;
+                cmbEmpAllocatedTo.SelectedValue = fLOV.AllocatedToEmpID;
+
+                cmbCategory.DropDownStyle = ComboBoxStyle.DropDown;
+                cmbCategory.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                cmbCategory.AutoCompleteSource = AutoCompleteSource.ListItems;
+
+                cmbStatus.SelectedIndex = 6;
+                cmbStatus.Enabled = false;
+                dgvPIDetail.DataSource = null;
+                cmbgodown.SelectedValue = fLOV.GodownID;
+                if (fLOV.CustomerName == null)
+                {
+                    _CustomerID = 0;
+                    //dgvPIDetail.DataSource = null;
+                }
+                if (_QuotationID != 0)
+                {
+                    dtquotation = CommSelect.SelectRecord(_QuotationID, "usp_Sale_Quotation", "Godown - BindControl");
+                    dgvPIDetail.DataSource = dtquotation;
+                    dgvPIDetail.Columns["QuotationId"].Visible = false;
+                    dtPIDetail = dtquotation;
+                    dgvPIDetail.AutoGenerateColumns = false;
+                    cmbCurrency.SelectedValue = dtquotation.Rows[0]["CurrencyID"].ToString();
+                    ArrangePIDetailGridView();
+                    dgvPIDetail.Columns["Discount"].Visible = true;
+
+                }
+                CalculateNetAmount();
+                //--------------------NEW FOR CONTACT DETAILS -----------------
+                NameValueCollection para = new NameValueCollection();
+                para.Add("@i_Code", txtPINo.Text);
+                para.Add("@i_CompID", CurrentCompany.CompId.ToString());
+                if (dtContactDetail.Columns.Count > 0)
+                {
+
+                }
+                else
+                {
+                    LoadContactDetailList();
+                }
+
+                dtQContactDetail = objDA.ExecuteDataTableSP("usp_SaleContact_Select", para, false, ref mException, ref mErrorMsg, "Quotation Contact - Select");
+                if (dtQContactDetail != null)
+                { }
+                btnContactPerson.Focus();
+                //--------------------NEW FOR CONTACT DETAILS -----------------
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Sales Invoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMessage1, "Warning");
+            }
+        }
+
+        public bool isRecordSave(string retMsg)
+        {
+            if (retMsg == null)
+            {
+                return false;
+            }
+            if (retMsg.Length > 0)
+            {
+                Int32 dummyInt;
+                try
+                {
+                    dummyInt = Int32.Parse(retMsg);
+                }
+                catch
+                {
+                    return false;
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        private void btnGeneratePI_Click(object sender, EventArgs e)
+        {
+            STNC = 1;
+            try
+            {
+                #region Calculation for Against Credit Note
+                if (cmbAgainstCN.Text == "Against Credit Note")
+                {
+                    if (Convert.ToDecimal(txtAdjCN.Text) > Convert.ToDecimal(txtCNoutstand.Text))
+                    {
+                        lblErrorMessage.Text = "Adjustment amount can not greater than Outstanding Amount";
+                        txtAdjCN.Focus();
+                        return;
+                    }
+
+                    if (Convert.ToDecimal(txtAdjCN.Text) > Convert.ToDecimal(txtNetAmount.Text))
+                    {
+                        lblErrorMessage.Text = "Adjustment amount can not greater than Net Amount";
+                        txtAdjCN.Focus();
+                        return;
+                    }
+
+                    if (Convert.ToDouble(txtNetAmount.Text) < Convert.ToDouble(txtCNoutstand.Text))
+                    {
+
+                        //CalcPaidForLessNetAmount();
+                        CalcRemainingCN();
+                    }
+                    else
+                    {
+                        //CalcPaidCN();
+                        CalcRemainingCN();
+                    }
+                }
+
+                #endregion
+
+                if (_Mode == (int)Common.Constant.Mode.Delete)
+                {
+                    DeletePI();
+                }
+                else
+                {
+
+                    if (DataValidator.IsValid(this.grpData))
+                    {
+                        if (Convert.ToDecimal(txtPaidAmount.Text) > Convert.ToDecimal(txtNetAmount.Text))
+                        {
+                            lblErrorMessage.Text = "Paid amount can not greater than net amount";
+                            txtPaidAmount.Focus();
+                            return;
+                        }
+
+                        bool IsValid = false;
+                        if (cmbMode.SelectedItem.ToString() == "Cheque")
+                        {
+                            //if (txtChequeNo.Text == "" || txtCustomerBankName.Text == "" || Convert.ToInt32(cmbbankName.SelectedValue) == 0)
+                            if (txtChequeNo.Text == "" || Convert.ToInt32(cmbbankName.SelectedValue) == 0)
+                            {
+                                IsValid = false;
+                            }
+                            else
+                            {
+                                IsValid = true;
+                            }
+                        }
+                        else
+                        {
+                            IsValid = true;
+                        }
+
+                        if (IsValid == true)
+                        {
+                            long Cnt = 0;
+                            string XMLString = string.Empty;
+
+                            XMLString = "<NewDataSet>";
+                            for (int i = 0; i < dtPIDetail.Rows.Count; i++)
+                            {
+                                XMLString = XMLString + "<Table>";
+                                XMLString = XMLString + "<GodownID>" + dtPIDetail.Rows[i]["GodownID"] + "</GodownID>";
+                                XMLString = XMLString + "<ItemID>" + dtPIDetail.Rows[i]["ItemID"] + "</ItemID>";
+                                XMLString = XMLString + "<ItemDesc>" + dtPIDetail.Rows[i]["ItemDesc"] + "</ItemDesc>";
+                                XMLString = XMLString + "<CurrencyID>" + dtPIDetail.Rows[i]["CurrencyID"] + "</CurrencyID>";
+                                XMLString = XMLString + "<Qty>" + Convert.ToDecimal(dtPIDetail.Rows[i]["Qty"]).ToString("#0.00") + "</Qty>";
+                                XMLString = XMLString + "<Rate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["Rate"]).ToString("#0.00") + "</Rate>";
+                                XMLString = XMLString + "<Amount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["TotalAmount"]).ToString("#0.00") + "</Amount>";
+                                XMLString = XMLString + "<TaxClassID>" + Convert.ToInt64(dtPIDetail.Rows[i]["TaxClassID"]).ToString() + "</TaxClassID>";
+
+                                XMLString = XMLString + "<ServiceRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["ServiceRate"]).ToString("#0.00") + "</ServiceRate>";
+                                XMLString = XMLString + "<ServiceAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["ServiceAmount"]).ToString("#0.00") + "</ServiceAmount>";
+
+                                XMLString = XMLString + "<ExciseRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["ExciseRate"]).ToString("#0.00") + "</ExciseRate>";
+                                XMLString = XMLString + "<ExciseAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["ExciseAmount"]).ToString("#0.00") + "</ExciseAmount>";
+                                XMLString = XMLString + "<EduCessRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["ECessRate"]).ToString("#0.00") + "</EduCessRate>";
+                                XMLString = XMLString + "<EduCessAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["ECessAmount"]).ToString("#0.00") + "</EduCessAmount>";
+                                XMLString = XMLString + "<HEduCessRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["HECessRate"]).ToString("#0.00") + "</HEduCessRate>";
+                                XMLString = XMLString + "<HEduCessAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["HECessAmount"]).ToString("#0.00") + "</HEduCessAmount>";
+                                XMLString = XMLString + "<AmountAfterExcise>" + Convert.ToDecimal(dtPIDetail.Rows[i]["AmountAfterExcise"]).ToString("#0.00") + "</AmountAfterExcise>";
+                                XMLString = XMLString + "<CSTRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["CSTRate"]).ToString("#0.00") + "</CSTRate>";
+                                XMLString = XMLString + "<CSTAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["CSTAmount"]).ToString("#0.00") + "</CSTAmount>";
+                                XMLString = XMLString + "<VATRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["VATRate"]).ToString("#0.00") + "</VATRate>";
+                                XMLString = XMLString + "<VATAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["VATAmount"]).ToString("#0.00") + "</VATAmount>";
+                                XMLString = XMLString + "<AVATRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["AVATRate"]).ToString("#0.00") + "</AVATRate>";
+                                XMLString = XMLString + "<AVATAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["AVATAmount"]).ToString("#0.00") + "</AVATAmount>";
+
+                                XMLString = XMLString + "<SBCessRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["SBCessRate"]).ToString("#0.00") + "</SBCessRate>";
+                                XMLString = XMLString + "<SBCessAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["SBCessAmount"]).ToString("#0.00") + "</SBCessAmount>";
+
+                                XMLString = XMLString + "<ExtraTaxRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["ExtraTaxRate"]).ToString("#0.00") + "</ExtraTaxRate>";
+                                XMLString = XMLString + "<ExtraTaxAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["ExtraTaxAmount"]).ToString("#0.00") + "</ExtraTaxAmount>";
+
+                                XMLString = XMLString + "<NetAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["NetAmount"]).ToString("#0.00") + "</NetAmount>";
+                                XMLString = XMLString + "<Discount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["Discount"]).ToString("#0.00") + "</Discount>";
+                                XMLString = XMLString + "<SGSTRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["SGSTRate"]).ToString("#0.00") + "</SGSTRate>";
+                                XMLString = XMLString + "<SGSTAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["SGSTAmount"]).ToString("#0.00") + "</SGSTAmount>";
+
+                                XMLString = XMLString + "<CGSTRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["CGSTRate"]).ToString("#0.00") + "</CGSTRate>";
+                                XMLString = XMLString + "<CGSTAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["CGSTAmount"]).ToString("#0.00") + "</CGSTAmount>";
+
+                                XMLString = XMLString + "<IGSTRate>" + Convert.ToDecimal(dtPIDetail.Rows[i]["IGSTRate"]).ToString("#0.00") + "</IGSTRate>";
+                                XMLString = XMLString + "<IGSTAmount>" + Convert.ToDecimal(dtPIDetail.Rows[i]["IGSTAmount"]).ToString("#0.00") + "</IGSTAmount>";
+
+
+                                //XMLString = XMLString + "<DiscountAmt>" + Convert.ToDecimal(dtPIDetail.Rows[i]["DiscountAmt"]).ToString("#0.00") + "</DiscountAmt>";
+                                XMLString = XMLString + "</Table> ";
+                                Cnt = Cnt + 1;
+                            }
+                            //XMLString = XMLString + "</NewDataSet>";
+                            XMLString = XMLString.ToString().Replace("&", "&amp;") + "</NewDataSet>";
+                            //if (Cnt == 0)
+                            //{
+                            //    lblErrorMessage.Text = "Select at least one item";
+                            //    dgvPIDetail.Focus();
+                            //    return;
+                            //}
+
+                            long Cnt1 = 0;
+                            string XMLString1 = string.Empty;
+                            dgvServicesReminder.EndEdit();
+
+
+                            XMLString1 = "<NewDataSet>";
+                            for (int i = 0; i < dgvServicesReminder.Rows.Count; i++)
+                            {
+                                XMLString1 = XMLString1 + "<Table>";
+                                XMLString1 = XMLString1 + "<SR_Code>" + dgvServicesReminder.Rows[i].Cells[0].Value.ToString() + "</SR_Code>";
+                                XMLString1 = XMLString1 + "<SR_Date>" + Convert.ToDateTime(dgvServicesReminder.Rows[i].Cells[1].Value).ToString("MM/dd/yyyy") + "</SR_Date>";
+                                XMLString1 = XMLString1 + "<SR_Done>" + "0" + "</SR_Done>";
+                                XMLString1 = XMLString1 + "</Table> ";
+                                Cnt1 = Cnt1 + 1;
+                            }
+                            //XMLString1 = XMLString1 + "</NewDataSet>";
+                            XMLString1 = XMLString1.ToString().Replace("&", "&amp;") + "</NewDataSet>";
+
+                            if (_Mode == (int)Common.Constant.Mode.Insert)
+                            {
+                                //Int32 PIID = 0;
+                                //string mBONO = "";
+                                //DateTime mBODate = DateTime.Today.Date;
+                                //string mDNote = "";
+                                //DateTime mDNoteDate = DateTime.Today.Date;
+                                //string mSuRNo = "";
+                                //string mDDNo = "";
+                                //string mDT = "";
+                                //string mD = "";
+                                //string mTI = "";
+                                //string mTR = "";
+                                //string mShipAdd = "";
+
+                                //DateTime mDtI = DateTime.Today.Date;
+                                //DateTime mDtR = DateTime.Today.Date;
+                                if (ISDispatchClick == true)
+                                {
+                                    if (frmSalesInvoiceDispatchDetails.BONo != null)
+                                    {
+                                        mBONO = frmSalesInvoiceDispatchDetails.BONo;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.BODate.ToString("dd/MM/yyyy") != "01/01/0001")
+                                    {
+                                        mBODate = frmSalesInvoiceDispatchDetails.BODate;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.DNote != null)
+                                    {
+                                        mDNote = frmSalesInvoiceDispatchDetails.DNote;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.DNoteDate.ToString("dd/MM/yyyy") != "01/01/0001")
+                                    {
+                                        mDNoteDate = frmSalesInvoiceDispatchDetails.DNoteDate;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.SuRNo != null)
+                                    {
+                                        mSuRNo = frmSalesInvoiceDispatchDetails.SuRNo;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.DDNo != null)
+                                    {
+                                        mDDNo = frmSalesInvoiceDispatchDetails.DDNo;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.DT != null)
+                                    {
+                                        mDT = frmSalesInvoiceDispatchDetails.DT;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.D != null)
+                                    {
+                                        mD = frmSalesInvoiceDispatchDetails.D;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.TI != null)
+                                    {
+                                        mTI = frmSalesInvoiceDispatchDetails.TI;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.TR != null)
+                                    {
+                                        mTR = frmSalesInvoiceDispatchDetails.TR;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.DtI.ToString("dd/MM/yyyy") != "01/01/0001")
+                                    {
+                                        mDtI = frmSalesInvoiceDispatchDetails.DtI;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.DtR.ToString("dd/MM/yyyy") != "01/01/0001")
+                                    {
+                                        mDtR = frmSalesInvoiceDispatchDetails.DtR;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.ShipAdd != null)
+                                    {
+                                        mShipAdd = frmSalesInvoiceDispatchDetails.ShipAdd;
+                                    }
+                                    else
+                                    {
+                                        mShipAdd = txtAddress1.Text;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.ShipotherAdd != null)
+                                    {
+                                        mShipotherAdd = frmSalesInvoiceDispatchDetails.ShipotherAdd;
+                                    }
+                                }
+
+                                if (frmSalesInvoiceDispatchDetails.ShipAdd != null)
+                                {
+                                    mShipAdd = frmSalesInvoiceDispatchDetails.ShipAdd;
+                                }
+                                else
+                                {
+                                    mShipAdd = txtAddress1.Text;
+                                }
+
+                                if (txtNetAmount.Text != null && txtPaidAmount.Text != null)
+                                {
+                                    if (Convert.ToDecimal(txtPaidAmount.Text) < Convert.ToDecimal(txtNetAmount.Text))
+                                    {
+                                        //MessageBox.Show("not total paid");
+
+                                        IsPaid = false;
+                                    }
+                                    else
+                                    {
+                                        // MessageBox.Show("total paid");
+                                        IsPaid = true;
+                                    }
+                                }
+
+                                //////////////////////////////////////////////////////////Reshma///////////////////////////////////////////////////
+
+                                if (_CustomerID == 0)
+                                {
+
+
+                                    int IsAccount = 1;
+
+                                    dtdate = DateTime.Now.ToString();
+                                    custcode = objCommon.AutoNumber("CUST");
+
+                                    objLeadBL1.InsertINQUARIEEEDATA(custcode, txtCustomer.Text, txtAddress1.Text,
+                                    _cityID, txtPINo.Text, "", txtmobile.Text, txtemail.Text,
+                                    "", "", "", "", "", "", "", "", "", "", "", "",
+                                    "",
+                                    "", txtcontactperson.Text, 0, "",
+                                    cmbCategory.Text, CompId, AccCustID,
+                                        //IsAccount, 0, dtpNextDate.Value, Convert.ToDecimal(txtBudget.Text), Convert.ToDecimal(txtBudget.Text));
+                                    IsAccount, 0, Convert.ToDateTime(dtdate), 0, 0);
+
+                                    NameValueCollection _para = new NameValueCollection();
+                                    _para.Add("@i_CompId", CurrentCompany.CompId.ToString());
+                                    _para.Add("@i_custcode", custcode);
+                                    dtblLOV = objList.ListOfRecord("usp_Customer_Sales_LOV", _para, "Customer LOV - LoadList");
+                                    if (dtblLOV.Rows.Count > 0)
+                                    {
+
+                                        _CustomerID = Convert.ToInt16(dtblLOV.Rows[0]["CustomerID"].ToString());
+
+                                    }
+
+                                    objLeadBLCUST.UpdateCUSTID(_CustomerID, _leadID, CompId);
+
+
+                                }
+
+
+                                /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                PIID = objPOBL.Insert(txtPINo.Text, Convert.ToDateTime(dtpPIDate.Value), Convert.ToDateTime(dtpDCDate.Value),
+                                    _CustomerID,
+                                    Convert.ToInt64(txtDuedays.Text),
+                                    Convert.ToDecimal(txtServiceAmt.Text),
+                                    Convert.ToDecimal(txtAmount.Text), Convert.ToDecimal(txtExciseAmt.Text),
+                                    Convert.ToDecimal(txtEduCessAmt.Text), Convert.ToDecimal(txtHEduCessAmt.Text),
+                                    Convert.ToDecimal(txtAmtwithExcise.Text), Convert.ToDecimal(txtCSTAmt.Text), Convert.ToDecimal(txtVATAmt.Text),
+                                    Convert.ToDecimal(txtAVATAmt.Text), Convert.ToDecimal(txtSBCessAmount.Text), Convert.ToDecimal(txtExtraTax.Text), Convert.ToDecimal(txtDiscount.Text),
+                                    Convert.ToDecimal(txtNetAmount.Text), Convert.ToDecimal(txtPaidAmount.Text), txtNarration.Text,
+                                    XMLString, Cnt,
+                                    Convert.ToDateTime(dtpInstallation.Value), Convert.ToDateTime(dtpReminder.Value),
+                                    Convert.ToInt16(txtNoOfServices.Text),
+                                    XMLString1, Cnt1,
+                                    Convert.ToInt16(cmbAttendedBy.SelectedValue),
+                                    Convert.ToDecimal(txtextracharges.Text), txtextrachargestype.Text, txtTIN.Text, Convert.ToInt16(txtRec.Text),
+                                    cmbType.Text, mShipAdd, mShipotherAdd, mBONO, mBODate,
+                                    mDNote, mDNoteDate,
+                                    mSuRNo, mDDNo,
+                                    mDT, mD,
+                                    mDtI, mTI,
+                                    mDtR, mTR,
+                                    txtcc.Text, txtbcc.Text, txtCustInvoiceNo.Text,
+                                    Convert.ToDecimal(txtextracharges2.Text), txtECType2.Text,
+                                    Convert.ToDecimal(txtextracharges3.Text), txtECType3.Text,
+                                    txtExtraReminder.Text, dtpExtraReminder.Value, Convert.ToInt16(cmbEmpAllocatedTo.SelectedValue), IsPaid, Convert.ToDecimal(txtDicAmt.Text), CompId, IsCustomer,
+                                    //,Convert.ToInt16(cmbgodown.SelectedValue)
+                                   txtChallanNo.Text
+                                   , Convert.ToDecimal(txtCNoutstand.Text), Convert.ToDecimal(txtRemainingCN.Text), Convert.ToDecimal(txtAdjCN.Text), cmbAgainstCN.Text
+                                   , cmbbankName.Text, txtChequeNo.Text, Convert.ToDateTime(dtpchequeDate.Value), txtCustomerBankName.Text
+                                   , txtcontactperson.Text, txtemail.Text, txtmobile.Text, BusinessType,
+                                   txtSGSTAmt.Text, txtCGSTAmt.Text, txtIGSTAmt.Text);
+
+
+
+
+
+                                if (objPOBL.Exception == null)
+                                {
+                                    string error = objPOBL.ErrorMessage;
+                                    if (objPOBL.ErrorMessage != "" || _SaleId > 0)
+                                    {
+                                        if (isRecordSave(objPOBL.ErrorMessage))
+                                        {
+                                            if (_SaleId == 0)
+                                                _SaleId = Convert.ToInt64(objPOBL.ErrorMessage);
+                                            foreach (DataRow dr in dtDocList.Rows)
+                                            {
+                                                if (Convert.ToInt64(dr["DocID"].ToString()) > 0)
+                                                {
+                                                    // objSaleBL.InsertSaleDocument(_SaleID, dr["FileName"].ToString(), dr["DocRemark"].ToString());
+                                                }
+                                                else
+                                                {
+                                                    string newFileName = CurrentUser.DocumentPath + @"\" + txtPINo.Text.ToString().Replace('/', '-') + "-" + dr["FileName"].ToString().Replace('/', '-');
+                                                    objPOBL.InsertSaleDocument(_SaleId, txtPINo.Text.ToString().Replace('/', '-') + "-" + dr["FileName"].ToString().Replace('/', '-'), dr["DocRemark"].ToString());
+
+                                                    //string PINO = txtPINo.Text;
+                                                    //string Module = PINO.Substring(0, 2);
+                                                    //string Year = PINO.Substring(3, 5);
+                                                    //string Code = PINO.Substring(9, 5);
+                                                    //string DocCode = Module + "-" + Year + "-" + Code;                                                
+
+                                                    if (objPOBL.Exception == null)
+                                                    {
+                                                        if (objPOBL.ErrorMessage == "")
+                                                        {
+                                                            //Move File
+                                                            //if (Convert.ToInt32(dr["DocID"].ToString()) > 0)
+                                                            //{
+                                                            //    File.Copy(CurrentUser.DocumentPath + @"\" + dr["FullFileName"].ToString(), newFileName, true);
+                                                            //}
+                                                            //else
+                                                            //{
+                                                            File.Copy(dr["FullFileName"].ToString(), newFileName, true);
+                                                            Upload(newFileName);
+                                                            // }
+                                                        }
+                                                    }
+                                                }
+                                            }
+
+                                            lblErrorMessage.Text = "No error";
+                                            //  ReturnValue = true;
+                                            this.Close();
+                                        }
+                                        else
+                                        {
+                                            lblErrorMessage.Text = objPOBL.ErrorMessage;
+                                            //    cmbSite.Focus();
+                                            //  ReturnValue = false;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        lblErrorMessage.Text = "No error";
+                                        //   ReturnValue = true;
+                                    }
+                                }
+
+                                //if (chkTNC.Checked == true)
+                                //{
+                                //    NameValueCollection para1 = new NameValueCollection();
+                                //    para1.Add("@i_TNC_SUB", "SALES");
+                                //    para1.Add("@i_CompId", CurrentCompany.CompId.ToString());
+                                //    DataTable dtAllTNC = objDA.ExecuteDataTableSP("usp_Select_All_TNC", para1, false, ref mException, ref mErrorMsg, "Select All TNC");
+                                //    for (int i = 0; i < dtAllTNC.Rows.Count; i++)
+                                //    {
+                                //        objPOBL.InsertTNC("SALES", dtAllTNC.Rows[i][0].ToString(), txtPINo.Text);
+                                //    }
+
+                                //}
+                                if (chkTNC.Checked == true)
+                                {
+                                    NameValueCollection para1 = new NameValueCollection();
+                                    para1.Add("@i_TNC_SUB", "SALES");
+                                    para1.Add("@i_CompId", CurrentCompany.CompId.ToString());
+                                    DataTable dtAllTNC = objDA.ExecuteDataTableSP("usp_Select_All_TNC", para1, false, ref mException, ref mErrorMsg, "Select All TNC");
+                                    //for (int i = 0; i < dtAllTNC.Rows.Count; i++)
+                                    //{
+                                    //    objPOBL.InsertTNC("SALES", dtAllTNC.Rows[i][0].ToString(), txtPINo.Text);
+                                    //}
+
+                                    long Cnt2 = 0;
+                                    string XMLString2 = string.Empty;
+
+                                    XMLString2 = "<NewDataSet>";
+                                    for (int i = 0; i < dtAllTNC.Rows.Count; i++)
+                                    {
+                                        XMLString2 = XMLString2 + "<Table>";
+                                        XMLString2 = XMLString2 + "<Code>" + txtPINo.Text + "</Code>";
+                                        XMLString2 = XMLString2 + "<TNC_Sub>" + "SALES" + "</TNC_Sub>";
+                                        //XMLString = XMLString + "<ItemODesc>" + dtPIDetail.Rows[i]["ItemODesc"] + "</ItemODesc>";
+                                        XMLString2 = XMLString2 + "<TNC_Desc>" + dtAllTNC.Rows[i]["TNC_Desc"].ToString() + "</TNC_Desc>";
+                                        XMLString2 = XMLString2 + "<CompId>" + CurrentCompany.CompId.ToString() + "</CompId>";
+
+                                        XMLString2 = XMLString2 + "</Table> ";
+                                        Cnt2 = Cnt2 + 1;
+                                    }
+
+                                    XMLString2 = XMLString2.ToString().Replace("&", "&amp;") + "</NewDataSet>";
+
+                                    objPOBL.InsertTNC_NEW(XMLString2, Cnt2);
+
+                                }
+                            }
+                            else
+                            {
+                                if (ISDispatchClick == true)
+                                {
+                                    if (frmSalesInvoiceDispatchDetails.BONo != null)
+                                    {
+                                        _BONo = frmSalesInvoiceDispatchDetails.BONo;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.DNote != null)
+                                    {
+                                        _DNote = frmSalesInvoiceDispatchDetails.DNote;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.SuRNo != null)
+                                    {
+                                        _SuRNo = frmSalesInvoiceDispatchDetails.SuRNo;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.DDNo != null)
+                                    {
+                                        _DDNo = frmSalesInvoiceDispatchDetails.DDNo;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.DT != null)
+                                    {
+                                        _DT = frmSalesInvoiceDispatchDetails.DT;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.D != null)
+                                    {
+                                        _D = frmSalesInvoiceDispatchDetails.D;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.TI != null)
+                                    {
+                                        _TI = frmSalesInvoiceDispatchDetails.TI;
+                                    }
+                                    if (frmSalesInvoiceDispatchDetails.TR != null)
+                                    {
+                                        _TR = frmSalesInvoiceDispatchDetails.TR;
+                                    }
+                                    if (Convert.ToString(frmSalesInvoiceDispatchDetails.BODate.ToString("dd/MM/yyyy")) != "01/01/0001")
+                                    {
+                                        _BODate = frmSalesInvoiceDispatchDetails.BODate;
+                                    }
+                                    if (Convert.ToString(frmSalesInvoiceDispatchDetails.DNoteDate.ToString("dd/MM/yyyy")) != "01/01/0001")
+                                    {
+                                        _DNoteDate = frmSalesInvoiceDispatchDetails.DNoteDate;
+                                    }
+                                    if (Convert.ToString(frmSalesInvoiceDispatchDetails.DtI.ToString("dd/MM/yyyy")) != "01/01/0001")
+                                    {
+                                        _DtI = frmSalesInvoiceDispatchDetails.DtI;
+                                    }
+                                    if (Convert.ToString(frmSalesInvoiceDispatchDetails.DtR.ToString("dd/MM/yyyy")) != "01/01/0001")
+                                    {
+                                        _DtR = frmSalesInvoiceDispatchDetails.DtR;
+                                    }
+
+                                    if (frmSalesInvoiceDispatchDetails.ShipAdd != null)
+                                    {
+                                        _ShipAdd = frmSalesInvoiceDispatchDetails.ShipAdd;
+                                    }
+
+                                    if (frmSalesInvoiceDispatchDetails.ShipotherAdd != null)
+                                    {
+                                        _ShipotherAdd = frmSalesInvoiceDispatchDetails.ShipotherAdd;
+                                    }
+                                }
+
+                                objPOBL.Update(_PIID, txtPINo.Text, Convert.ToDateTime(dtpPIDate.Value),
+                                    Convert.ToDateTime(dtpDCDate.Value),
+                                   _CustomerID,
+                                    Convert.ToInt64(txtDuedays.Text),
+                                    Convert.ToDecimal(txtServiceAmt.Text),
+                                    Convert.ToDecimal(txtAmount.Text), Convert.ToDecimal(txtExciseAmt.Text),
+                                    Convert.ToDecimal(txtEduCessAmt.Text), Convert.ToDecimal(txtHEduCessAmt.Text),
+                                    Convert.ToDecimal(txtAmtwithExcise.Text), Convert.ToDecimal(txtCSTAmt.Text), Convert.ToDecimal(txtVATAmt.Text),
+                                    Convert.ToDecimal(txtAVATAmt.Text), Convert.ToDecimal(txtSBCessAmount.Text), Convert.ToDecimal(txtExtraTax.Text), Convert.ToDecimal(txtDiscount.Text),
+                                    Convert.ToDecimal(txtNetAmount.Text), Convert.ToDecimal(txtPaidAmount.Text), txtNarration.Text,
+                                    XMLString, Cnt,
+                                    Convert.ToDateTime(dtpInstallation.Value), Convert.ToDateTime(dtpReminder.Value),
+                                    Convert.ToInt16(txtNoOfServices.Text),
+                                    XMLString1, Cnt1,
+                                    Convert.ToInt16(cmbAttendedBy.SelectedValue),
+                                     Convert.ToDecimal(txtextracharges.Text), txtextrachargestype.Text, txtTIN.Text, Convert.ToInt16(txtRec.Text),
+                                     cmbType.Text, _ShipAdd, _ShipotherAdd, _BONo, _BODate,
+                                    _DNote, _DNoteDate,
+                                    _SuRNo, _DDNo,
+                                    _DT, _D,
+                                    _DtI, _TI,
+                                    _DtR, _TR,
+                                    txtcc.Text, txtbcc.Text, txtCustInvoiceNo.Text,
+                                    Convert.ToDecimal(txtextracharges2.Text), txtECType2.Text,
+                                    Convert.ToDecimal(txtextracharges3.Text), txtECType3.Text,
+                                    txtExtraReminder.Text, dtpExtraReminder.Value, Convert.ToInt16(cmbEmpAllocatedTo.SelectedValue), IsPaid, Convert.ToDecimal(txtDicAmt.Text), CompId, IsCustomer,
+                                    //, Convert.ToInt16(cmbgodown.SelectedValue)
+                                   txtChallanNo.Text,
+                                   Convert.ToDecimal(txtCNoutstand.Text), Convert.ToDecimal(txtRemainingCN.Text), Convert.ToDecimal(txtAdjCN.Text), cmbAgainstCN.Text
+                                   , cmbbankName.Text, txtChequeNo.Text, Convert.ToDateTime(dtpchequeDate.Value), txtCustomerBankName.Text
+                                   , txtcontactperson.Text, txtemail.Text, txtmobile.Text, BusinessType,
+                                   txtSGSTAmt.Text, txtCGSTAmt.Text, txtIGSTAmt.Text);
+
+
+                                if (objPOBL.Exception == null)
+                                {
+                                    foreach (DataRow dr in dtDocList.Rows)
+                                    {
+                                        if (Convert.ToInt64(dr["DocID"].ToString()) > 0)
+                                        {
+                                            objPOBL.InsertSaleDocument(_SaleId, dr["FileName"].ToString(), dr["DocRemark"].ToString());
+                                        }
+                                        else
+                                        {
+                                            //string PINO = txtPINo.Text;
+                                            //string Module = PINO.Substring(0, 2);
+                                            //string Year = PINO.Substring(3, 5);
+                                            //string Code = PINO.Substring(9, 5);
+                                            //string DocCode = Module + "-" + Year + "-" + Code;
+
+                                            //string newFileName = CurrentUser.DocumentPath + DocCode + "_" + dr["FileName"].ToString();
+
+                                            //objPOBL.InsertSaleDocument(_SaleId, DocCode + "_" + dr["FileName"].ToString(), dr["DocRemark"].ToString());
+
+                                            string newFileName = CurrentUser.DocumentPath + @"\" + txtPINo.Text.ToString().Replace('/', '-') + "-" + dr["FileName"].ToString().Replace('/', '-');
+                                            objPOBL.InsertSaleDocument(_SaleId, txtPINo.Text.ToString().Replace('/', '-') + "-" + dr["FileName"].ToString().Replace('/', '-'), dr["DocRemark"].ToString());
+
+                                            if (objPOBL.Exception == null)
+                                            {
+                                                if (objPOBL.ErrorMessage == "")
+                                                {
+                                                    //Move File    
+
+
+                                                    string fullfilename = dr["FullFileName"].ToString();
+                                                    File.Copy(dr["FullFileName"].ToString(), newFileName, true);
+                                                    Upload(newFileName);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+
+                            }
+                            if (chksend.Checked == true)
+                            {
+                                SendToMail();
+                            }
+                            if (objPOBL.Exception == null)
+                            {
+                                if (objPOBL.ErrorMessage != "")
+                                {
+                                    lblErrorMessage.Text = objPOBL.ErrorMessage;
+                                    dtpPIDate.Focus();
+                                    return;
+                                }
+                                else
+                                {
+                                    this.Dispose();
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show(objPOBL.Exception.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Please fill up all Bank details", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            //grpBankDetail.Focus();
+
+                            lblErrorMessage.Text = "Please fill up all Bank details";
+                            grpBankDetail.Focus();
+                            return;
+                        }
+                    }
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Sales Invoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            if (_Mode == (int)Constant.Mode.Insert)
+            {
+                objPOBL.DeleteTNC_On_Close("SALES", txtPINo.Text);
+            }
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            //if (Convert.ToInt16(cmbgodown.SelectedValue) > 0)
+            //{
+            if (_resh == 0)
+            {
+                btnedit.Enabled = false;
+            }
+
+            lblErrorMessage.Text = "";
+            string StrItem = "#";
+            for (int i = 0; (i <= (dgvPIDetail.Rows.Count - 1)); i++)
+            {
+                StrItem = (StrItem + (dgvPIDetail.Rows[i].Cells["ItemID"].Value + "#"));
+            }
+            if (_Mode == (int)Common.Constant.Mode.Modify)
+            {
+                if (dtPIDetail.Columns.Count == 0)
+                {
+                    LoadPIDetailList();
+
+                }
+            }
+
+            int godown = Convert.ToInt32(cmbgodown.SelectedValue);
+            _CurrencyID = Convert.ToInt64(cmbCurrency.SelectedValue);
+
+            SalesInvoice.frmSalesInvoiceItemEntry fPIEntry = new SalesInvoice.frmSalesInvoiceItemEntry((int)Constant.Mode.Insert, _PIID, _CustomerID, dtpPIDate.Value, dtPIDetail, _ItemDiscAmt, 0, 0, Convert.ToInt16(cmbgodown.SelectedValue), 0, _CurrencyID, false);
+            fPIEntry.ShowDialog();
+            dgvPIDetail.AutoGenerateColumns = false;
+            dgvPIDetail.DataSource = dtPIDetail;
+            //fPIEntry.ItemDiscountAmt += Convert.ToDecimal(fPIEntry.ItemDiscountAmt.ToString());
+            TotalDisAmt = Convert.ToDecimal(txtDicAmt.Text);
+            TotalDisAmt += Convert.ToDecimal(fPIEntry.ItemDiscountAmt.ToString());
+            // fPIEntry.ItemDiscountAmt += fPIEntry.ItemDiscountAmt;
+            txtDicAmt.Text = TotalDisAmt.ToString();
+            ArrangePIDetailGridView();
+            CalculateNetAmount();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Select Godown.");
+            //    return;
+            //}
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (!(dgvPIDetail.CurrentRow == null))
+            {
+                if ((dgvPIDetail.Rows.Count > 1))
+                {
+                    if ((MessageBox.Show(("You are going to Delete the Sales Invoice." + ("\r\n" + ("\r\n" + "Are you sure ?"))), "Confirm ?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes))
+                    {
+                        int RowIndex = dgvPIDetail.CurrentRow.Index;
+                        dtPIDetail.Rows[RowIndex].Delete();
+                        dtPIDetail.AcceptChanges();
+
+                        dgvPIDetail.AutoGenerateColumns = false;
+                        dgvPIDetail.DataSource = dtPIDetail;
+                        ArrangePIDetailGridView();
+                        CalculateNetAmount();
+                    }
+                }
+                else
+                {
+                    lblErrorMessage.Text = "Atleast one Item entry is required";
+                }
+            }
+        }
+
+        private void btnBrowse_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            DialogResult result = ofd.ShowDialog(); // Show the dialog.
+            if (result == DialogResult.OK) // Test result.
+            {
+                txtDocName.Text = ofd.SafeFileName;
+                SelectedFileName = ofd.FileName;
+            }
+        }
+
+        private void btnAddDoc_Click(object sender, EventArgs e)
+        {
+            if (txtDocName.Text == "")
+            {
+                txtDocName.Focus();
+                return;
+            }
+            DataRow dr = dtDocList.NewRow();
+            dr["DocID"] = "0";
+            dr["SaleID"] = _SaleId;
+            dr["FileName"] = txtDocName.Text;
+            dr["FullFileName"] = SelectedFileName;
+            dr["DocRemark"] = txtComment.Text;
+            dtDocList.Rows.Add(dr);
+
+
+            ArrangeDocumentGridView();
+            dgvCountry.AutoGenerateColumns = false;
+            dgvCountry.DataSource = dtDocList;
+            ArrangeDocumentGridView();
+            txtDocName.Text = "";
+            SelectedFileName = "";
+            txtComment.Text = "";
+            btnAddDoc.Focus();
+        }
+
+        private void btnDeleteDoc_Click(object sender, EventArgs e)
+        {
+            if (dgvCountry.CurrentRow != null)
+            {
+                int RowIndex = dgvCountry.CurrentRow.Index;
+
+                string DelFileName = dtDocList.Rows[RowIndex]["FullFileName"].ToString();
+                string DelFileName1 = CurrentUser.DocumentPath.ToString();
+
+                //File.Copy(dr["FullFileName"].ToString(), newFileName, true);
+                if (File.Exists(CurrentUser.DocumentPath + DelFileName))
+                {
+                    File.Delete(CurrentUser.DocumentPath + DelFileName);
+                }
+
+                dtDocList.Rows[RowIndex].Delete();
+                dtDocList.AcceptChanges();
+
+                dgvCountry.AutoGenerateColumns = false;
+                dgvCountry.DataSource = dtDocList;
+                ArrangeDocumentGridView();
+            }
+        }
+
+        #endregion
+
+        #region "Textbox Event"
+
+        private void txtItemName_Validating(object sender, CancelEventArgs e)
+        {
+            if (_Mode == (int)Common.Constant.Mode.Insert)
+            {
+                if (txtCustomer.Text != "")
+                {
+                    DataView dvItem = new DataView();
+                    dvItem = dtCustomer.DefaultView;
+                    dvItem.RowFilter = "CustomerName='" + PrepareFilterString(txtCustomer.Text) + "'";
+
+                    DataTable dtTempItem = new DataTable();
+                    dtTempItem = dvItem.ToTable();
+
+
+                    if (dtTempItem.Rows.Count > 0)
+                    {
+                        lblErrorMessage.Text = "No error";
+                        txtCustomer.Text = dtTempItem.Rows[0]["CustomerName"].ToString();
+                    }
+                    else
+                    {
+                        lblErrorMessage.Text = "Invalid Customer";
+                        _CustomerID = 0;
+                        //dgvPIDetail.DataSource = null;
+                        txtCustomer.Focus();
+                    }
+
+                }
+                else
+                {
+                    _CustomerID = 0;
+                    dgvPIDetail.DataSource = null;
+                }
+            }
+        }
+
+        private void txtDuedays_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            DataValidator.AllowOnlyNumeric(e, ".");
+        }
+
+        private void txtDuedays_Leave(object sender, EventArgs e)
+        {
+            TextBox txtTextbox = sender as TextBox;
+            if (txtTextbox.Text != "")
+            {
+                if (DataValidator.IsNumeric(txtTextbox.Text))
+                {
+                    // Set Decimal Value after textbox's Leave Event
+                    lblErrorMessage.Text = "No error";
+                    int t = txtTextbox.TextLength;
+                    if (t <= txtTextbox.MaxLength)
+                    {
+                        lblErrorMessage.Text = "No error";
+                        if (Convert.ToInt16(txtTextbox.Text) > 0)
+                        {
+                            // dtpDueDate.Value = dtpPIDate.Value.Date.AddDays(Convert.ToInt16(txtTextbox.Text));
+                        }
+                        else
+                        {
+                            //  dtpDueDate.Value = dtpPIDate.Value;
+                        }
+                    }
+                    else
+                    {
+                        lblErrorMessage.Text = DataValidator.lblFormatMessage + "99";
+                        txtTextbox.Focus();
+                    }
+                }
+                else
+                {
+                    txtTextbox.Text = "0";
+                }
+            }
+            else
+            {
+                txtTextbox.Text = "0";
+            }
+        }
+
+        private void txtPaidAmount_Leave(object sender, EventArgs e)
+        {
+            TextBox txtTextbox = sender as TextBox;
+            if (txtTextbox.Text != "")
+            {
+                if (DataValidator.IsNumeric(txtTextbox.Text))
+                {
+                    txtTextbox.Text = Convert.ToDecimal(txtTextbox.Text).ToString("#0.00");
+                    // Set Decimal Value after textbox's Leave Event
+                    lblErrorMessage.Text = "No error";
+                    int t = txtTextbox.TextLength;
+                    if (t <= txtTextbox.MaxLength)
+                    {
+                        lblErrorMessage.Text = "No error";
+                    }
+                    else
+                    {
+                        lblErrorMessage.Text = DataValidator.lblFormatMessage + "99999999.99";
+                        txtTextbox.Focus();
+                    }
+                }
+                else
+                {
+                    txtTextbox.Text = "0.00";
+                }
+            }
+            else
+            {
+                txtTextbox.Text = "0.00";
+            }
+            if (txtTextbox.Name == "txtDiscount")
+                CalculateNetAmount();
+
+            if (Convert.ToDecimal(txtPaidAmount.Text) > 0)
+            {
+                grpBankDetail.Enabled = true;
+            }
+
+            if (Convert.ToDecimal(txtPaidAmount.Text) > 0)
+            {
+                grpBankDetail.Enabled = true;
+                cmbMode.Enabled = true;
+            }
+        }
+
+        private void txtNarration_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNoOfServices_TextChanged(object sender, EventArgs e)
+        {
+            if (txtCustomer.Text.Trim() == "")
+            {
+                txtNoOfServices.Text = "";
+                MessageBox.Show("First Select Customer.");
+                return;
+            }
+
+            if (dtpInstallation.Value == dtpReminder.Value)
+            {
+                txtNoOfServices.Text = "";
+                MessageBox.Show("AMC/Warranty Date must be greater than Installation date.");
+                return;
+            }
+
+            if (txtNoOfServices.Text.Trim() != "")
+            {
+                TimeSpan t1 = (dtpReminder.Value) - (dtpInstallation.Value);
+                double noofdays = t1.TotalDays;
+
+                int days = 0;
+                int p = 0;
+                if (Convert.ToInt16(txtNoOfServices.Text) == 0)
+                {
+                    dgvServicesReminder.DataSource = null;
+                }
+                else
+                {
+                    dgvServicesReminder.Rows.Clear();
+                    days = Convert.ToInt16(noofdays) / Convert.ToInt16(txtNoOfServices.Text);
+                    DateTime NextReminderDate = dtpInstallation.Value.AddDays(days);
+
+                    for (p = 0; p < Convert.ToInt16(txtNoOfServices.Text); p++)
+                    {
+
+                        dgvServicesReminder.Rows.Add();
+                        string pad = Convert.ToString(p + 1);
+                        dgvServicesReminder.Rows[p].Cells[0].Value = txtCustomer.Text.Substring(0, 3) + "-" + pad.PadLeft(4, '0');
+                        dgvServicesReminder.Rows[p].Cells[1].Value = NextReminderDate;
+                        NextReminderDate = NextReminderDate.AddDays(days);
+
+                    }
+                }
+            }
+            else
+            {
+                dgvServicesReminder.Rows.Clear();
+            }
+        }
+
+        private void txtNoOfServices_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                DataValidator.AllowOnlyNumeric(e, ".");
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("SalesInvoice-Keypress", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        #endregion
+
+        #region "Grid View Cellpainting Event & Other"
+
+        private void dgvPIDetail_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
+        {
+            try
+            {
+                if (e.RowIndex == -1)
+                {
+                    GridDrawCustomHeaderColumns(dgvPIDetail, e, Properties.Resources.Button_Gray_Stripe_01_050);
+                }
+                if (e.ColumnIndex == -1)
+                {
+                    GridDrawCustomHeaderColumns(dgvPIDetail, e, Properties.Resources.Button_Gray_Stripe_01_050);
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Sales Invoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        public void ArrangeDocumentGridView()
+        {
+            dgvCountry.Columns[1].DataPropertyName = dtDocList.Columns["DocID"].ToString();
+            dgvCountry.Columns[2].DataPropertyName = dtDocList.Columns["FileName"].ToString();
+            dgvCountry.Columns[3].DataPropertyName = dtDocList.Columns["DocRemark"].ToString();
+            dgvCountry.Columns[4].DataPropertyName = dtDocList.Columns["FullFileName"].ToString();
+            dgvCountry.Columns[5].DataPropertyName = dtDocList.Columns["SaleID"].ToString();
+
+        }
+
+        private void dgvCountry_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            try
+            {
+                if (e.ColumnIndex == 0)
+                {
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        MessageBox.Show("Please save record and then you can edit document in Edit Sale record.");
+                        return;
+                    }
+
+                    /*Online*/
+
+                    if (File.Exists(Path.GetTempPath() + dgvCountry.CurrentRow.Cells["FullFileName"].Value.ToString()))
+                    {
+                        Process.Start(Path.GetTempPath() + dgvCountry.CurrentRow.Cells["FullFileName"].Value.ToString());
+                    }
+                    else
+                    {
+                        Download(Path.GetTempPath(), dgvCountry.CurrentRow.Cells["FullFileName"].Value.ToString());
+                        Process.Start(Path.GetTempPath() + dgvCountry.CurrentRow.Cells["FullFileName"].Value.ToString());
+                    }
+
+                    /*Offline*/
+                    //string strFile;
+                    //if (dgvCountry.Rows[e.RowIndex].Cells["SaleID"].Value.ToString().Length > 0 && Convert.ToInt32(dgvCountry.Rows[e.RowIndex].Cells["SaleID"].Value.ToString()) > 0)
+                    //    // strFile = dgvCountry.Rows[e.RowIndex].Cells["FullFileName"].Value.ToString();
+                    //    strFile = CurrentUser.DocumentPath + @"\" + dgvCountry.Rows[e.RowIndex].Cells["FullFileName"].Value.ToString();
+                    //else
+                    //    strFile = CurrentUser.DocumentPath + dgvCountry.Rows[e.RowIndex].Cells["FullFileName"].Value.ToString();
+
+                    //Process.Start(strFile);
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Sale-List", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+
+        #endregion
+
+        #region "User Define Function"
+
+        public void SendToMail()
+        {
+            try
+            {
+
+                //string vMailFm = "", vMailTo, vusername = "", vSubject = "", vDetails = ""; vMailFm = CurrentCompany.Con_Email;
+
+                //----------for mail from ID starts---------------
+
+                NameValueCollection para2 = new NameValueCollection();
+                _CompId = CurrentCompany.CompId;
+                _UserID = CurrentUser.UserID;
+
+                para2.Add("@i_CompId", CurrentCompany.CompId.ToString());
+
+                para2.Add("@i_UserID", _UserID.ToString());
+
+                dtblUser = objList.ListOfRecord("usp_User_MailDetails", para2, "User - LoadList");
+                string vMailFm = "", vMailTo = "", vusername = "", vSubject = "", vDetails = ""; ;
+
+                if (dtblUser.Rows[0]["Mail_Send"].ToString() == "True")
+                {
+                    //vMailFm = "",
+                    if (dtblUser.Rows[0]["User_Email"].ToString() != "")
+                    {
+                        vMailFm = dtblUser.Rows[0]["User_Email"].ToString();
+                    }
+                    else
+                    {
+                        vMailFm = CurrentCompany.Con_Email;
+                    }
+                }
+                else
+                {
+                    vMailFm = CurrentCompany.Con_Email;
+                }
+                //----------for mail from ID end---------------
+
+                DataTable dtEmail = new DataTable();
+                NameValueCollection para = new NameValueCollection();
+                para.Add("@i_Type", "Sales");
+                para.Add("@i_CompId", CurrentCompany.CompId.ToString());
+
+                dtEmail = objList.ListOfRecord("usp_Email_LOV", para, "Email LOV - LoadList");
+                if (dtEmail.Rows.Count > 0)
+                {
+
+                    //------------------------new code for multiple contact persons-----------------
+                    string EmailIDs = "";
+                    //dtblContactPerson
+                    if (dtQContactDetail != null)
+                    {
+                        if (dtQContactDetail.Rows.Count > 0)
+                        {
+                            for (int i = 0; i < dtQContactDetail.Rows.Count; i++)
+                            {
+                                if (dtQContactDetail.Rows[i]["Email"].ToString() != "")
+                                {
+                                    EmailIDs = EmailIDs + dtQContactDetail.Rows[i]["Email"].ToString() + ",";
+                                }
+                                else
+                                {
+
+                                }
+                            }
+                            vMailTo = ((txtemail.Text.ToLower() == "") ? CurrentCompany.Con_Email : EmailIDs.TrimEnd(',').ToLower());
+                            //vMailTo = ((txtemail.Text.ToLower() == "") ? CurrentCompany.Con_Email : txtemail.Text.ToLower());
+                        }
+                        else
+                        {
+                            if (txtemail.Text == "")
+                            {
+                                MessageBox.Show("No contact detail available for this client.\n Please fill up contact person details.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                            else
+                            {
+                                vMailTo = ((txtemail.Text.ToLower() == "") ? CurrentCompany.Con_Email : txtemail.Text.ToLower());
+                            }
+                            //MessageBox.Show("No contact detail available for this client.\n Please fill up contact person details.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else
+                    {
+                        vMailTo = ((txtemail.Text.ToLower() == "") ? CurrentCompany.Con_Email : txtemail.Text.ToLower());
+                    }
+
+                    //------------------------new code for multiple contact persons-----------------
+
+
+                    vMailTo = ((txtemail.Text.ToLower() == "") ? CurrentCompany.Con_Email : txtemail.Text.ToLower());
+                    //vMailTo = ((txtFatherMailId.Text == "") ? Convert.ToString(ViewState["Femail"]) : txtFatherMailId.Text);
+                    System.Net.Mail.MailMessage vMail = new System.Net.Mail.MailMessage(vMailFm, vMailTo);
+
+                    vSubject = dtEmail.Rows[0][0].ToString() + " From " + CurrentCompany.CompanyName; // SUBJECT LINE
+
+                    vDetails = dtEmail.Rows[0][1].ToString(); // HEADER PART OF BODY
+                    vDetails += "<br /><br />";
+
+                    vDetails += " <BR> <BR> <b>Sale No : " + txtCustInvoiceNo.Text + "</b>"; // DETAIL PART OF BODY
+                    vDetails += "<BR> <BR>  <b> Date : " + dtpPIDate.Value.Day + "/" + dtpPIDate.Value.Month + "/" + dtpPIDate.Value.Year + "</b><BR> <BR>";
+                    vDetails += "<html><head><title></title></head><body><table style=&quot;width: 100%;&quot; border=&quot;1&quot;>" +
+                                "<tr align=&quot;center&quot; style=&quot;font-weight: bold&quot;><td>ITEM</td><td>QTY</td><td>UOM</td>" +
+                                "<td>RATE</td><td>AMOUNT</td></tr>";
+
+                    for (int i = 0; i < dgvPIDetail.RowCount; i++)
+                    {
+                        vDetails += "<tr><td align=&quot;left&quot;> " + dgvPIDetail.Rows[i].Cells["ItemName"].Value.ToString() +
+                                    "</td><td align=&quot;right&quot;>" + dgvPIDetail.Rows[i].Cells["Qty"].Value.ToString() +
+                                    "</td><td align=&quot;left&quot;>" + dgvPIDetail.Rows[i].Cells["UOM"].Value.ToString() +
+                                    "</td><td align=&quot;right&quot;>" + dgvPIDetail.Rows[i].Cells["Rate"].Value.ToString() +
+                                    "</td><td align=&quot;right&quot;>" + dgvPIDetail.Rows[i].Cells["TotalAmount"].Value.ToString() +
+                                    "</td></tr>";
+                    }
+
+                    vDetails += "</table></body></html>";
+                    vDetails += " <BR> <BR> <b>Net Amount : " + txtNetAmount.Text + "</b>";
+
+                    //------------new content for dispatch detail------------
+
+                    vDetails += " <BR> <BR> <b> ===== Dispatch Details =====</b>";
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Buyer's Order No.: " + mBONO + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Buyer's Order No.: " + _BONo + "</b>";
+                    }
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Order Date: " + mBODate + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Order Date: " + _BODate + "</b>";
+                    }
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Delivery Note: " + mDNote + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Delivery Note: " + _DNote + "</b>";
+                    }
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Delivery Date: " + mDNoteDate + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Delivery Date: " + _DNoteDate + "</b>";
+                    }
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Supplier's Ref./Order No.: " + mSuRNo + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Supplier's Ref./Order No.: " + _SuRNo + "</b>";
+                    }
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Despatch Document No.: " + mDDNo + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Despatch Document No.: " + _DDNo + "</b>";
+                    }
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Despatched through & Vehical No.: " + mDT + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Despatched through & Vehical No.: " + _DT + "</b>";
+                    }
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Destination: " + mD + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Destination: " + _D + "</b>";
+                    }
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Date & Time of issue of Invoice:" + mDtI + " - " + mTI + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Date & Time of issue of Invoice: " + _DtI + " - " + _TI + "</b>";
+                    }
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Date & Time of Removal of Goods:" + mDtR + " - " + mTR + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Date & Time of Removal of Goods: " + _DtR + " - " + _TR + "</b>";
+                    }
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        vDetails += " <BR> <BR> <b> Shipping Address: " + mShipAdd + "</b>";
+                    }
+                    else
+                    {
+                        vDetails += " <BR> <BR> <b> Shipping Address: " + _ShipAdd + "</b>";
+                    }
+
+
+                    vDetails += "<br /><br />";
+                 
+
+                    if (CurrentUser.UnitID == 1 || CurrentUser.UnitID == 2 || CurrentUser.UnitID == 3)
+                    {
+                        vDetails += "<p>" + dtEmail.Rows[0][2].ToString() + "</p>"; // FOOTER PART OF BODY
+                        vDetails += "<br><br>";
+                    }
+                    else
+                    {
+                        vDetails += "Rgds," + "<br>" + CurrentUser.EmaiId + "<br>" + CurrentUser.PhonNo + "<br>" + CurrentUser.Address + "<br>" + CurrentCompany.CompanyName;
+                    }
+
+
+
+
+
+                    vDetails += "<br><br>";
+
+                    if (txtcc.Text.Trim() != "")
+                    {
+                        vMail.CC.Add(txtcc.Text);
+                    }
+                    if (txtbcc.Text.Trim() != "")
+                    {
+                        vMail.Bcc.Add(txtbcc.Text);
+                    }
+                    vMail.Subject = vSubject;
+                    vMail.Body = vDetails;
+                    vMail.IsBodyHtml = true;
+
+                    System.Net.Mail.SmtpClient vSmpt = new System.Net.Mail.SmtpClient();
+
+                    //---------check for By user Mailsend status and set credentials for from send mail,pwd----------------
+
+                    //-------------                    
+
+                    string UserName = "";
+                    string Password = "";
+
+                    if (dtblUser.Rows[0]["Mail_Send"].ToString() == "True")
+                    {
+                        //vMailFm = "",
+                        if (dtblUser.Rows[0]["User_Email"].ToString() != "" && dtblUser.Rows[0]["User_NPassword"].ToString() != "")
+                        {
+                            UserName = dtblUser.Rows[0]["User_Email"].ToString();
+                            Password = dtblUser.Rows[0]["User_NPassword"].ToString();
+                        }
+                        else
+                        {
+                            UserName = CurrentCompany.Con_Email;
+                            Password = CurrentCompany.Con_Password;
+                        }
+                    }
+                    else
+                    {
+                        UserName = CurrentCompany.Con_Email;
+                        Password = CurrentCompany.Con_Password;
+                    }
+
+                    System.Net.NetworkCredential SmtpUser = new System.Net.NetworkCredential(UserName, Password);
+
+                    if (dtblUser.Rows[0]["Mail_Send"].ToString() == "True")
+                    {
+                        if (dtblUser.Rows[0]["User_Email"].ToString() != "" && dtblUser.Rows[0]["User_NPassword"].ToString() != "")
+                        {
+                            if (dtblUser.Rows[0]["User_Host"].ToString() == "")
+                            {
+                                MessageBox.Show("Email credentials have missing Host detail.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                            else
+                            {
+                                vSmpt.Host = dtblUser.Rows[0]["User_Host"].ToString();
+                            }
+
+                            //vSmpt.Host = dtblUser.Rows[0]["User_Host"].ToString();
+                            if (dtblUser.Rows[0]["User_Port"].ToString() == "0")
+                            {
+                                MessageBox.Show("Email credentials have missing Port detail.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                            else
+                            {
+                                vSmpt.Port = Convert.ToInt32(dtblUser.Rows[0]["User_Port"].ToString());
+                            }
+
+                            //vSmpt.Port = Convert.ToInt32(dtblUser.Rows[0]["User_Port"].ToString());
+                            if (dtblUser.Rows[0]["User_ssl"].ToString() == "")
+                            {
+                                MessageBox.Show("Email credentials have missing SSL detail.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                            else
+                            {
+                                if (dtblUser.Rows[0]["User_ssl"].ToString() == "0")
+                                {
+                                    vSmpt.EnableSsl = true;
+                                }
+                                if (dtblUser.Rows[0]["User_ssl"].ToString() == "1")
+                                {
+                                    vSmpt.EnableSsl = false;
+                                }
+                            }
+                            //if (dtblUser.Rows[0]["User_ssl"].ToString() == "0")
+                            //{
+                            //    vSmpt.EnableSsl = true;
+                            //}
+                            //if (dtblUser.Rows[0]["User_ssl"].ToString() == "1")
+                            //{
+                            //    vSmpt.EnableSsl = false;
+                            //}
+                        }
+                        else
+                        {
+                            vSmpt.Host = CurrentCompany.Host;
+                            vSmpt.Port = CurrentCompany.Port;
+                            vSmpt.DeliveryMethod = SmtpDeliveryMethod.Network;
+                            if (CurrentCompany.ssl == 0)
+                            {
+                                vSmpt.EnableSsl = true;
+                            }
+                            else if (CurrentCompany.ssl == 1)
+                            {
+                                vSmpt.EnableSsl = false;
+                            }
+                        }
+
+                    }
+                    else
+                    {
+                        vSmpt.Host = CurrentCompany.Host;
+                        vSmpt.Port = CurrentCompany.Port;
+                        vSmpt.DeliveryMethod = SmtpDeliveryMethod.Network;
+                        if (CurrentCompany.ssl == 0)
+                        {
+                            vSmpt.EnableSsl = true;
+                        }
+                        else if (CurrentCompany.ssl == 1)
+                        {
+                            vSmpt.EnableSsl = false;
+                        }
+                    }
+
+                    //---------check for By user Mailsend status and set credentials for from send mail,pwd,host,port,ssl----------------
+
+                    //System.Net.NetworkCredential SmtpUser = new System.Net.NetworkCredential(CurrentCompany.Con_Email, CurrentCompany.Con_Password);
+
+                    //vSmpt.Host = "smtp.gmail.com";
+                    //vSmpt.Port = 25;
+                    //vSmpt.EnableSsl = false;
+                    //vSmpt.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    //vSmpt.Host = CurrentCompany.Host;
+                    //vSmpt.Port = CurrentCompany.Port;
+                    //vSmpt.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    ////vSmpt.UseDefaultCredentials = false;
+
+
+                    //if (CurrentCompany.ssl == 0)
+                    //{
+                    //    vSmpt.EnableSsl = true;
+                    //}
+                    //else if (CurrentCompany.ssl == 1)
+                    //{
+                    //    vSmpt.EnableSsl = false;
+                    //}
+                    //SmtpServer oServer = new SmtpServer(CurrentCompany.Host);
+                    //oServer.ConnectType = SmtpConnectType.ConnectSSLAuto;
+                    vSmpt.Credentials = SmtpUser;
+                    vSmpt.Send(vMail);
+                    MessageBox.Show("Mail has been sent successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("For Sending Email, First Set Email Details For Sales.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("There is some problem to send Email" + ex);
+            }
+
+        }
+
+        private void btnTNC_Click(object sender, EventArgs e)
+        {
+            //try
+            //{
+            //    DataAccess.DataAccess objDA = new DataAccess.DataAccess();
+            //    DataTable dtQTNC = new DataTable();
+            //    NameValueCollection para = new NameValueCollection();
+            //    para.Add("@i_Code", txtPINo.Text);
+            //    dtQTNC = objDA.ExecuteDataTableSP("usp_SalesTNC_Select", para, false, ref mException, ref mErrorMsg, "Sales TNC - Select");
+            //    string TNC_Sub = "SALES";
+            //    if (dtQTNC.Rows.Count > 0)
+            //    {
+            //        frmTNCLOV fLOV = new frmTNCLOV("usp_SalesTNC_Select", para, txtPINo.Text, "SALES");
+            //        fLOV.Text = "List Of Terms & Conditions";
+            //        fLOV.ShowDialog();
+            //    }
+            //    else
+            //    {
+
+            //        frmTNCLOV fLOV = new frmTNCLOV("usp_TNC_LOV", null, txtPINo.Text, "SALES");
+            //        fLOV.Text = "List Of Terms & Conditions";
+            //        fLOV.ShowDialog();
+            //    }
+            //}
+            //catch (Exception exc)
+            //{
+            //    Utill.Common.ExceptionLogger.writeException("Quotation", exc.StackTrace);
+            //    MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            //}
+
+            try
+            {
+
+                DataTable dtQTNC = new DataTable();
+                NameValueCollection para = new NameValueCollection();
+                para.Add("@i_Code", txtPINo.Text);
+                para.Add("@i_CompId", CurrentCompany.CompId.ToString());
+                dtQTNC = objDA.ExecuteDataTableSP("usp_SalesTNC_Select", para, false, ref mException, ref mErrorMsg, "Sales TNC - Select");
+
+                if (dtQTNC.Rows.Count > 0)
+                {
+                    if (chkTNC.Checked == true)
+                    {
+                        IsAllTNC = "True";
+                    }
+                    else
+                    {
+                        IsAllTNC = "False";
+                    }
+
+                    frmTNCLOV_NEW fLOV = new frmTNCLOV_NEW("usp_SalesTNC_Select", para, txtPINo.Text, "SALES");
+                    fLOV.Text = "List Of Terms & Conditions";
+
+                    //frmTNCLOV fLOV = new frmTNCLOV("usp_SalesTNC_Select", para, txtPINo.Text, "SALES");
+                    //fLOV.Text = "List Of Terms & Conditions";
+
+                    //TYPE_OF_FORM = fLOV.TYPE_OF_SALE;
+                    //if (chkTNC.Checked == true)
+                    //{
+                    //    fLOV.IsAllTNC_Check = "True";
+                    //}
+                    //else
+                    //{
+                    //    fLOV.IsAllTNC_Check = "False";
+                    //}
+                    fLOV.ShowDialog();
+                    //if (fLOV.IsAllTNC_Check == "False")
+                    //{
+                    //    chkTNC.Checked = false;
+                    //}
+                    //else
+                    //{
+                    //    chkTNC.Checked = true;
+                    //}
+                    // TYPE_OF_FORM = fLOV.TYPE_OF_SALE;
+
+                }
+                else
+                {
+                    //if (chkTNC.Checked == true)
+                    //{
+                    //    IsAllTNC = "True";
+                    //}
+                    //else
+                    //{
+                    //    IsAllTNC = "False";
+                    //}
+                    //frmTNCLOV fLOV = new frmTNCLOV("usp_TNC_LOV", null, txtPINo.Text, "SALES");
+                    //fLOV.Text = "List Of Terms & Conditions";
+                    //fLOV.ShowDialog();
+                    frmTNCLOV_NEW fLOV = new frmTNCLOV_NEW("usp_TNC_LOV", null, txtPINo.Text, "SALES");
+                    fLOV.Text = "List Of Terms & Conditions";
+                    fLOV.ShowDialog();
+                    //if (fLOV.IsAllTNC_Check == "False")
+                    //{
+                    //    chkTNC.Checked = false;
+                    //}
+                    //else
+                    //{
+                    //    chkTNC.Checked = true;
+                    //}
+                }
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Quotation", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+
+        }
+
+        private void txtextracharges_Leave(object sender, EventArgs e)
+        {
+            if (txtextracharges.Text != null)
+            {
+                CalculateNetAmount();
+            }
+        }
+
+        private void btnedit_Click(object sender, EventArgs e)
+        {
+            lblErrorMessage.Text = "";
+            if (dgvPIDetail.Rows.Count > 0)
+            {
+                string StrItem = "#";
+                for (int i = 0; (i <= (dgvPIDetail.Rows.Count - 1)); i++)
+                {
+                    StrItem = (StrItem + (dgvPIDetail.Rows[i].Cells["ItemID"].Value + "#"));
+                }
+                // int godown = Convert.ToInt32(cmbgodown.SelectedValue);
+                int ItemID_Edit = Convert.ToInt32(dgvPIDetail.CurrentRow.Cells["ItemID"].Value);
+                int GodownID_Edit = Convert.ToInt32(dgvPIDetail.CurrentRow.Cells["GodownID"].Value);
+
+
+
+
+                int _ID = 0;
+                if (_Mode == (int)Common.Constant.Mode.Insert)
+                {
+                    _PIID = Convert.ToInt32(dgvPIDetail.CurrentRow.Cells["QuotationId"].Value);
+                    _ID = 1;
+                }
+                _CurrencyID = Convert.ToInt64(cmbCurrency.SelectedValue);
+                SalesInvoice.frmSalesInvoiceItemEntry fPIEntry = new SalesInvoice.frmSalesInvoiceItemEntry((int)Constant.Mode.Modify, _PIID, _CustomerID, dtpPIDate.Value, dtPIDetail, _ItemDiscAmt, ItemID_Edit, _ID, Convert.ToInt16(cmbgodown.SelectedValue), GodownID_Edit, _CurrencyID, IsFirstItem);
+                fPIEntry.ShowDialog();
+
+
+
+                dgvPIDetail.AutoGenerateColumns = false;
+                //txtDicAmt.Text = _ItemDiscAmt.ToString();
+                TotalDisAmt += Convert.ToDecimal(fPIEntry.ItemDiscountAmt.ToString());
+
+                txtDicAmt.Text = TotalDisAmt.ToString();
+                dgvPIDetail.DataSource = dtPIDetail;
+                ArrangePIDetailGridView();
+                CalculateNetAmount();
+
+            }
+
+        }
+
+
+        private void txtDiscount_Leave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (_Mode == (int)Common.Constant.Mode.Insert)
+            {
+                if (cmbType.SelectedIndex == 1)
+                {
+                    txtPINo.Text = objCommon.AutoNumber("RI");
+                    txtCustInvoiceNo.Text = objCommon.AutoNumber("RI");
+                }
+                else if (cmbType.SelectedIndex == 2)
+                {
+                    txtPINo.Text = objCommon.AutoNumber("TI");
+                    txtCustInvoiceNo.Text = objCommon.AutoNumber("TI");
+                }
+                else if (cmbType.SelectedIndex == 3)
+                {
+                    txtPINo.Text = objCommon.AutoNumber("ES");
+                    txtCustInvoiceNo.Text = objCommon.AutoNumber("ES");
+                }
+            }
+        }
+
+        private void btnDis_Click(object sender, EventArgs e)
+        {
+            ISDispatchClick = true;
+            if (_Mode == (int)Common.Constant.Mode.Insert)
+            {
+                frmSalesInvoiceDispatchDetails fSD = new frmSalesInvoiceDispatchDetails("", DateTime.Today.Date, "", DateTime.Today.Date, "", "", "",
+                                                                                        "", DateTime.Today.Date, DateTime.Today.Date, "", "", 1, txtAddress1.Text, "");
+                fSD.ShowDialog();
+            }
+            else if (_Mode == (int)Common.Constant.Mode.Modify)
+            {
+                frmSalesInvoiceDispatchDetails fSD = new frmSalesInvoiceDispatchDetails(_BONo, _BODate, _DNote, _DNoteDate, _SuRNo, _DDNo,
+                                                                                _DT, _D, _DtI, _DtR, _TI, _TR, 3, _ShipAdd, _ShipotherAdd);
+
+                fSD.ShowDialog();
+            }
+
+        }
+
+        private void txtextracharges2_Leave(object sender, EventArgs e)
+        {
+            //if (txtextracharges2.Text != null)
+            //{
+            //    if (Convert.ToDecimal(txtextracharges2.Text) > 0)
+            //    {
+
+            //        if (PreDisAmt == 0 || Convert.ToDecimal(txtextracharges2.Text) != PreDisAmt)
+            //        {
+            //            //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges2.Text) - PreExtraAmt).ToString();
+            //            //PreExtraAmt = Convert.ToDecimal(txtextracharges.Text) + Convert.ToDecimal(txtextracharges2.Text);
+
+            //           // txtNetAmount.Text = ((Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text) + Convert.ToDecimal(txtextracharges2.Text) + Convert.ToDecimal(txtextracharges3.Text)).ToString());
+            //        }
+            //    }
+            //    else if (Convert.ToDecimal(txtextracharges2.Text) == 0)
+            //    {
+            //        //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) - PreExtraAmt).ToString();
+            //        //PreExtraAmt = Convert.ToDecimal(txtextracharges.Text) + Convert.ToDecimal(txtextracharges2.Text);
+            //    }
+            //}
+
+
+            if (txtextracharges2.Text != null)
+            {
+                //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text)).ToString();
+                // txtNetAmount.Text = ((Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges2.Text)).ToString());
+                CalculateNetAmount();
+            }
+        }
+
+        private void txtextracharges3_Leave(object sender, EventArgs e)
+        {
+            //if (txtextracharges3.Text != null)
+            //{
+            //    if (Convert.ToDecimal(txtextracharges3.Text) > 0)
+            //    {
+
+            //        if (PreDisAmt == 0 || Convert.ToDecimal(txtextracharges3.Text) != PreDisAmt)
+            //        {
+            //            //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges3.Text) - PreExtraAmt).ToString();
+            //            //PreExtraAmt = Convert.ToDecimal(txtextracharges.Text) + Convert.ToDecimal(txtextracharges2.Text) + Convert.ToDecimal(txtextracharges3.Text);
+
+            //          //  txtNetAmount.Text = ((Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text) + Convert.ToDecimal(txtextracharges2.Text) + Convert.ToDecimal(txtextracharges3.Text)).ToString());
+            //        }
+            //    }
+            //    else if (Convert.ToDecimal(txtextracharges3.Text) == 0)
+            //    {
+            //        //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) - PreExtraAmt).ToString();
+            //        //PreExtraAmt = Convert.ToDecimal(txtextracharges.Text) + Convert.ToDecimal(txtextracharges2.Text) + Convert.ToDecimal(txtextracharges3.Text);
+            //    }
+            //}
+
+            if (txtextracharges3.Text != null)
+            {
+                //txtNetAmount.Text = (Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges.Text)).ToString();
+                //txtNetAmount.Text = ((Convert.ToDecimal(txtNetAmount.Text) + Convert.ToDecimal(txtextracharges3.Text)).ToString());
+                CalculateNetAmount();
+            }
+
+        }
+
+        private void txtAmount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmSalesInvoiceEntry_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (_Mode == (int)Constant.Mode.Insert)
+            {
+                if (STNC == 0)
+                {
+                    objPOBL.DeleteTNC_On_Close("SALES", txtPINo.Text);
+                }
+            }
+        }
+
+        private void btnContactPerson_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DataTable dtQTNC = new DataTable();
+                NameValueCollection para = new NameValueCollection();
+                para.Add("@i_Code", txtPINo.Text);
+                para.Add("@i_CompID", CurrentCompany.CompId.ToString());
+                //if (_Mode == (int)Common.Constant.Mode.Insert)
+                //{
+                if (dtContactDetail.Columns.Count > 0)
+                {
+
+                }
+                else
+                {
+                    LoadContactDetailList();
+                }
+                //}
+                dtQTNC = objDA.ExecuteDataTableSP("usp_SaleContact_Select", para, false, ref mException, ref mErrorMsg, "Quotation Contact - Select");
+                if (IsCustomer == true)
+                {
+                    if (dtQTNC != null)
+                    {
+                        ContactPerson.frmContactPersonSelect fLOV = new ContactPerson.frmContactPersonSelect((int)Constant.Mode.SCUpdate, 1, LeadNo.Substring(5, 5), txtPINo.Text, dtContactDetail, "usp_ContactDetail_LOV", null, "SALE");
+                        fLOV.Text = "List Of Conatct Details";
+                        fLOV.ShowDialog();
+                        dtQTNC = objDA.ExecuteDataTableSP("usp_SaleContact_Select", para, false, ref mException, ref mErrorMsg, "Quotation Contact - Select");
+
+                        //-----------For MuliContact Display ----------
+                        string MultiContact = "";
+                        string MultiEmail = "";
+                        string MultiMobile = "";
+                        for (int i = 0; i < dtQTNC.Rows.Count; i++)
+                        {
+                            // +=    
+                            MultiContact += dtQTNC.Rows[i]["ContactName"].ToString() + ",";
+                            MultiEmail += dtQTNC.Rows[i]["Email"].ToString() + ",";
+                            MultiMobile += dtQTNC.Rows[i]["Mobile"].ToString() + ",";
+                        }
+                        txtcontactperson.Text = MultiContact.TrimEnd(',');
+                        txtemail.Text = MultiEmail.TrimEnd(',');
+                        txtmobile.Text = MultiMobile.TrimEnd(',');
+                        //--------------------------
+                    }
+                    else
+                    {
+                        ContactPerson.frmContactPersonSelect fLOV = new ContactPerson.frmContactPersonSelect((int)Constant.Mode.SCInsert, 1, LeadNo.Substring(5, 5), txtPINo.Text, dtContactDetail, "usp_ContactDetail_LOV", null, "SALE");
+                        fLOV.Text = "List Of Conatct Details";
+                        fLOV.ShowDialog();
+                        dtQTNC = objDA.ExecuteDataTableSP("usp_SaleContact_Select", para, false, ref mException, ref mErrorMsg, "Quotation Contact - Select");
+
+                        //-----------For MuliContact Display ----------
+                        string MultiContact = "";
+                        string MultiEmail = "";
+                        string MultiMobile = "";
+                        for (int i = 0; i < dtQTNC.Rows.Count; i++)
+                        {
+                            // +=    
+                            MultiContact += dtQTNC.Rows[i]["ContactName"].ToString() + ",";
+                            MultiEmail += dtQTNC.Rows[i]["Email"].ToString() + ",";
+                            MultiMobile += dtQTNC.Rows[i]["Mobile"].ToString() + ",";
+                        }
+                        txtcontactperson.Text = MultiContact.TrimEnd(',');
+                        txtemail.Text = MultiEmail.TrimEnd(',');
+                        txtmobile.Text = MultiMobile.TrimEnd(',');
+                        //--------------------------
+                    }
+                }
+                else
+                {
+                    if (dtQTNC != null)
+                    {
+                        ContactPerson.frmContactPersonSelect fLOV = new ContactPerson.frmContactPersonSelect((int)Constant.Mode.SCUpdate, 4, LeadNo.Substring(4, 5), txtPINo.Text, dtContactDetail, "usp_ContactDetail_LOV", null, "SALE");
+                        fLOV.Text = "List Of Conatct Details";
+                        fLOV.ShowDialog();
+                        dtQTNC = objDA.ExecuteDataTableSP("usp_SaleContact_Select", para, false, ref mException, ref mErrorMsg, "Quotation Contact - Select");
+                        //-----------For MuliContact Display ----------
+                        string MultiContact = "";
+                        string MultiEmail = "";
+                        string MultiMobile = "";
+                        for (int i = 0; i < dtQTNC.Rows.Count; i++)
+                        {
+                            // +=    
+                            MultiContact += dtQTNC.Rows[i]["ContactName"].ToString() + ",";
+                            MultiEmail += dtQTNC.Rows[i]["Email"].ToString() + ",";
+                            MultiMobile += dtQTNC.Rows[i]["Mobile"].ToString() + ",";
+                        }
+                        txtcontactperson.Text = MultiContact.TrimEnd(',');
+                        txtemail.Text = MultiEmail.TrimEnd(',');
+                        txtmobile.Text = MultiMobile.TrimEnd(',');
+                        //--------------------------
+                    }
+                    else
+                    {
+                        ContactPerson.frmContactPersonSelect fLOV = new ContactPerson.frmContactPersonSelect((int)Constant.Mode.SCInsert, 4, LeadNo.Substring(4, 5), txtPINo.Text, dtContactDetail, "usp_ContactDetail_LOV", null, "SALE");
+                        fLOV.Text = "List Of Conatct Details";
+                        dtQTNC = objDA.ExecuteDataTableSP("usp_SaleContact_Select", para, false, ref mException, ref mErrorMsg, "Quotation Contact - Select");
+                        fLOV.ShowDialog();
+                        //-----------For MuliContact Display ----------
+                        string MultiContact = "";
+                        string MultiEmail = "";
+                        string MultiMobile = "";
+                        for (int i = 0; i < dtQTNC.Rows.Count; i++)
+                        {
+                            // +=    
+                            MultiContact += dtQTNC.Rows[i]["ContactName"].ToString() + ",";
+                            MultiEmail += dtQTNC.Rows[i]["Email"].ToString() + ",";
+                            MultiMobile += dtQTNC.Rows[i]["Mobile"].ToString() + ",";
+                        }
+                        txtcontactperson.Text = MultiContact.TrimEnd(',');
+                        txtemail.Text = MultiEmail.TrimEnd(',');
+                        txtmobile.Text = MultiMobile.TrimEnd(',');
+                        //--------------------------
+                    }
+                }
+
+
+            }
+            catch (Exception exc)
+            {
+                Utill.Common.ExceptionLogger.writeException("Vendor", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void txtCustomer_Leave(object sender, EventArgs e)
+        {
+            StrFilter = "";
+            if (dtblLOV != null)
+            {
+                if (dtblLOV.Rows.Count > 0)
+                {
+                    if (txtCustomer.Text.Trim() != "")
+                    {
+                        StrFilter = StrFilter + " CustomerName = '" + PrepareFilterString(txtCustomer.Text.Trim()) + "' OR ";
+                    }
+
+                    if (StrFilter != "")
+                    {
+                        StrFilter = StrFilter.Substring(0, StrFilter.Length - 4);
+                    }
+
+                    DV = dtblLOV.DefaultView;
+                    DV.RowFilter = StrFilter;
+                    DataTable dtCustomer = new DataTable();
+                    dtCustomer = DV.ToTable();
+                    if (DV.ToTable() != null)
+                    {
+                        if (DV.ToTable().Rows.Count > 0)
+                        {
+                            //txtLeadNo.Text = dtCustomer.Rows[0]["CustomerCode"].ToString();
+                            // txtLeaddate.Text = fLOV.LeadDate.ToShortDateString();
+                            txtCustomer.Text = dtCustomer.Rows[0]["CustomerName"].ToString();
+                            _CustomerID = Convert.ToInt64(dtCustomer.Rows[0]["CustomerID"].ToString());
+                            txtemail.Text = dtCustomer.Rows[0]["Email"].ToString();
+                            txtmobile.Text = dtCustomer.Rows[0]["Mobile"].ToString();
+                            txtcontactperson.Text = dtCustomer.Rows[0]["ContactPerson"].ToString();
+                            // txtLeaddate.Text = dtCustomer.Rows[0]["LeadDate"].ToString();
+                            txtAddress1.Text = dtCustomer.Rows[0]["Address"].ToString();
+                            cmbCategory.Text = dtCustomer.Rows[0]["Category"].ToString();
+                            cmbAttendedBy.SelectedValue = dtCustomer.Rows[0]["EmpID"].ToString();
+                            cmbEmpAllocatedTo.SelectedValue = dtCustomer.Rows[0]["AllocatedToEmpID"].ToString();
+
+                            _QuotationID = Convert.ToInt64(dtCustomer.Rows[0]["QuotationID"].ToString());
+
+                            if (dtCustomer.Rows[0]["CustomerCode"].ToString().Contains("CUST"))
+                            {
+                                IsCustomer = true;
+                            }
+                            else
+                            {
+                                IsCustomer = false;
+                            }
+
+
+                            DataTable dtquotation = new DataTable();
+                            if (dtCustomer.Rows[0]["CustomerName"].ToString() == null)
+                            {
+                                _CustomerID = 0;
+                                //dgvPIDetail.DataSource = null;
+                            }
+                            if (_QuotationID != 0)
+                            {
+                                dtquotation = CommSelect.SelectRecord(_QuotationID, "usp_Sale_Quotation", "Godown - BindControl");
+                                dgvPIDetail.DataSource = dtquotation;
+                                dgvPIDetail.Columns["QuotationId"].Visible = false;
+                                dtPIDetail = dtquotation;
+                                dgvPIDetail.AutoGenerateColumns = false;
+                                ArrangePIDetailGridView();
+                                dgvPIDetail.Columns["Discount"].Visible = true;
+
+                            }
+                            CalculateNetAmount();
+                            btnContactPerson.Focus();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Customer does not exists.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            txtCustomer.Focus();
+                        }
+                    }
+
+                    //dgvLOV.DataSource = DV.ToTable();
+                }
+            }
+        }
+
+        private void txtCustomer_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyValue == 13)
+            {
+                StrFilter = "";
+                if (dtblLOV != null)
+                {
+                    if (dtblLOV.Rows.Count > 0)
+                    {
+                        if (txtCustomer.Text.Trim() != "")
+                        {
+                            StrFilter = StrFilter + " CustomerName = '" + PrepareFilterString(txtCustomer.Text.Trim()) + "' OR ";
+                        }
+
+                        if (StrFilter != "")
+                        {
+                            StrFilter = StrFilter.Substring(0, StrFilter.Length - 4);
+                        }
+
+                        DV = dtblLOV.DefaultView;
+                        DV.RowFilter = StrFilter;
+                        DataTable dtCustomer = new DataTable();
+                        dtCustomer = DV.ToTable();
+                        if (DV.ToTable() != null)
+                        {
+                            if (DV.ToTable().Rows.Count > 0)
+                            {
+                                //txtLeadNo.Text = dtCustomer.Rows[0]["CustomerCode"].ToString();
+                                // txtLeaddate.Text = fLOV.LeadDate.ToShortDateString();
+                                txtCustomer.Text = dtCustomer.Rows[0]["CustomerName"].ToString();
+                                _CustomerID = Convert.ToInt64(dtCustomer.Rows[0]["CustomerID"].ToString());
+                                txtemail.Text = dtCustomer.Rows[0]["Email"].ToString();
+                                txtmobile.Text = dtCustomer.Rows[0]["Mobile"].ToString();
+                                txtcontactperson.Text = dtCustomer.Rows[0]["ContactPerson"].ToString();
+                                // txtLeaddate.Text = dtCustomer.Rows[0]["LeadDate"].ToString();
+                                txtAddress1.Text = dtCustomer.Rows[0]["Address"].ToString();
+                                cmbCategory.Text = dtCustomer.Rows[0]["Category"].ToString();
+                                cmbAttendedBy.SelectedValue = dtCustomer.Rows[0]["EmpID"].ToString();
+                                cmbEmpAllocatedTo.SelectedValue = dtCustomer.Rows[0]["AllocatedToEmpID"].ToString();
+
+                                _QuotationID = Convert.ToInt64(dtCustomer.Rows[0]["QuotationID"].ToString());
+
+
+                                if (dtCustomer.Rows[0]["CustomerCode"].ToString().Contains("CUST"))
+                                {
+                                    IsCustomer = true;
+                                }
+                                else
+                                {
+                                    IsCustomer = false;
+                                }
+                                //if (dtCustomer.Rows[0]["IsCustomer"].ToString() == "True")
+                                //{
+                                //    IsCustomer = true;
+                                //}
+                                //else
+                                //{
+                                //    IsCustomer = false;
+                                //}
+                                DataTable dtquotation = new DataTable();
+                                if (dtCustomer.Rows[0]["CustomerName"].ToString() == null)
+                                {
+                                    _CustomerID = 0;
+                                    //dgvPIDetail.DataSource = null;
+                                }
+                                if (_QuotationID != 0)
+                                {
+                                    dtquotation = CommSelect.SelectRecord(_QuotationID, "usp_Sale_Quotation", "Godown - BindControl");
+                                    dgvPIDetail.DataSource = dtquotation;
+                                    dgvPIDetail.Columns["QuotationId"].Visible = false;
+                                    dtPIDetail = dtquotation;
+                                    dgvPIDetail.AutoGenerateColumns = false;
+                                    ArrangePIDetailGridView();
+                                    dgvPIDetail.Columns["Discount"].Visible = true;
+
+                                }
+                                CalculateNetAmount();
+                                btnContactPerson.Focus();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Customer does not exists.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                txtCustomer.Focus();
+                            }
+                        }
+
+                        //dgvLOV.DataSource = DV.ToTable();
+                    }
+                }
+            }
+        }
+
+        private void label39_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbAgainstCN_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cmbAgainstCN.Text == "Against Credit Note")
+                {
+                    GrpCN.Visible = true;
+                    grpBankDetail.Enabled = false;
+                    grpItemDetail.Height = 220;
+                    dgvPIDetail.Height = 170;
+
+
+                    if (_Mode == (int)Common.Constant.Mode.Insert)
+                    {
+                        DataSet ds = new DataSet();
+                        DataTable dtCNout = new DataTable();
+
+                        ds = CommSelect.SelectDataSetRecord(_CustomerID, "usp_SaleInvoice_CNOutstanding", "SaleInvoice - CNOutstanding");
+                        //ds1 = CommSelect.SelectDataSetRecord(_SaleId, "usp_SaleDocList_List", "SalesInvoice - BindControl");
+                        if (CommSelect.Exception == null)
+                        {
+                            if (CommSelect.ErrorMessage == "")
+                            {
+                                if (ds.Tables[0].Rows.Count > 0)
+                                {
+                                    dtCNout = ds.Tables[0];
+                                    if (dtCNout.Rows[0]["CNout"].ToString() != "")
+                                    {
+                                        txtCNoutstand.Text = dtCNout.Rows[0]["CNout"].ToString();
+                                        txtAdjCN.Text = dtCNout.Rows[0]["CNout"].ToString();
+
+                                        if (Convert.ToDouble(txtNetAmount.Text) < Convert.ToDouble(txtCNoutstand.Text))
+                                        {
+
+                                            CalcPaidForLessNetAmount();
+                                            CalcRemainingCN();
+                                        }
+                                    }
+                                    else
+                                    {
+                                        txtCNoutstand.Text = "0.00";
+                                        txtAdjCN.Text = "0.00";
+
+                                        lblErrorMessage.Text = "No credit Note for this customer";
+                                        cmbAgainstCN.Text = "Direct Sale";
+                                    }
+                                }
+
+
+                            }
+                            //////////
+                        }
+
+                    }
+                    //////////
+
+                }
+                else if (cmbAgainstCN.Text == "Direct Sale")
+                {
+                    GrpCN.Visible = false;
+                    grpBankDetail.Enabled = false;
+                    grpItemDetail.Height = 296;
+                    dgvPIDetail.Height = 247;
+                    ////---------------------------
+                    //     GrpCN.Visible = true;
+                    //groupBox4.Height = 220;
+                    //dgvPIDetail.Height = 170;
+
+                    txtCNoutstand.Text = "0.00";
+                    txtRemainingCN.Text = "0.00";
+                    txtAdjCN.Text = "0.00";
+                }
+            }
+            catch (Exception exc)
+            {
+
+                Utill.Common.ExceptionLogger.writeException("SaleInvoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        public void CalcPaidForLessNetAmount()
+        {
+            txtAdjCN.Text = txtNetAmount.Text;
+            //txtPaidAmount.Text = Convert.ToDecimal(Convert.ToDouble(txtNetAmount.Text) - Convert.ToDouble(txtAdjCN.Text)).ToString("#0.00");
+        }
+
+        public void CalcRemainingCN()
+        {
+            if (txtCNoutstand.Text != "0.00" && txtCNoutstand.Text != "" && txtAdjCN.Text != "0.00" && txtAdjCN.Text != "")
+            {
+                txtRemainingCN.Text = Convert.ToDecimal(Convert.ToDouble(txtCNoutstand.Text) - Convert.ToDouble(txtAdjCN.Text)).ToString("#0.00");
+            }
+        }
+
+        public void CalcPaidCN()
+        {
+            if (txtNetAmount.Text != "0.00" && txtNetAmount.Text != "" && txtAdjCN.Text != "0.00" && txtAdjCN.Text != "")
+            {
+                txtPaidAmount.Text = Convert.ToDecimal(Convert.ToDouble(txtNetAmount.Text) - Convert.ToDouble(txtAdjCN.Text)).ToString("#0.00");
+                txtTotalPaidAmount.Text = Convert.ToDecimal(Convert.ToDouble(txtNetAmount.Text) - Convert.ToDouble(txtAdjCN.Text)).ToString("#0.00");
+            }
+        }
+
+        private void cmbAgainstCN_Leave(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cmbAgainstCN.Text == "Against Credit Note")
+                {
+                    DataSet ds = new DataSet();
+                    DataTable dtCNout = new DataTable();
+
+                    ds = CommSelect.SelectDataSetRecord(_CustomerID, "usp_SaleInvoice_CNOutstanding", "SaleInvoice - CNOutstanding");
+                    //ds1 = CommSelect.SelectDataSetRecord(_SaleId, "usp_SaleDocList_List", "SalesInvoice - BindControl");
+                    if (CommSelect.Exception == null)
+                    {
+                        if (CommSelect.ErrorMessage == "")
+                        {
+                            if (ds.Tables[0].Rows.Count > 0)
+                            {
+                                dtCNout = ds.Tables[0];
+                                txtCNoutstand.Text = dtCNout.Rows[0]["CNout"].ToString();
+                                txtAdjCN.Text = dtCNout.Rows[0]["CNout"].ToString();
+
+                                if (Convert.ToDouble(txtNetAmount.Text) < Convert.ToDouble(txtCNoutstand.Text))
+                                {
+
+                                    CalcPaidForLessNetAmount();
+                                    CalcRemainingCN();
+                                }
+                            }
+                        }
+                        //////////
+                    }
+                }
+
+            }
+            catch (Exception exc)
+            {
+
+                Utill.Common.ExceptionLogger.writeException("SaleInvoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void txtAdjCN_Leave(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cmbAgainstCN.Text == "Against Credit Note")
+                {
+                    if (txtAdjCN.Text != "" && txtCNoutstand.Text != "")
+                    {
+                        if (Convert.ToDecimal(txtAdjCN.Text) > Convert.ToDecimal(txtCNoutstand.Text))
+                        {
+                            lblErrorMessage.Text = "Adjustment amount can not be greater than Outstanding Amount";
+                            txtAdjCN.Focus();
+                            return;
+                        }
+
+                        if (Convert.ToDecimal(txtAdjCN.Text) > Convert.ToDecimal(txtNetAmount.Text))
+                        {
+                            lblErrorMessage.Text = "Adjustment amount can not be greater than Net Amount";
+                            txtAdjCN.Focus();
+                            return;
+                        }
+                        if (Convert.ToDouble(txtNetAmount.Text) < Convert.ToDouble(txtCNoutstand.Text))
+                        {
+
+                            //CalcPaidForLessNetAmount();
+                            CalcRemainingCN();
+                        }
+                        else
+                        {
+                            //CalcPaidCN();
+                            CalcRemainingCN();
+                        }
+                    }
+                    else
+                    {
+                        lblErrorMessage.Text = "No credit Note for this customer";
+                        cmbAgainstCN.Text = "Direct Sale";
+                    }
+                }
+
+
+            }
+            catch (Exception exc)
+            {
+
+                Utill.Common.ExceptionLogger.writeException("SaleInvoice", exc.StackTrace);
+                MessageBox.Show(Utill.Common.CommonMessage.ExceptionMesg, "Exception");
+            }
+        }
+
+        private void dtpchequeDate_CloseUp(object sender, EventArgs e)
+        {
+            // txtChequeDate.Text = dtpchequeDate.Value.ToString("dd/MM/yyyy");
+        }
+
+        private void cmbMode_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbMode.SelectedItem.ToString() == "Cash")
+            {
+                grpBankDetail.Enabled = false;
+            }
+            else
+            {
+                grpBankDetail.Enabled = true;
+            }
+        }
+
+        private void txtCustomerBankName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbBusinessType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbBusinessType.SelectedIndex > 0)
+            {
+                if (cmbBusinessType.SelectedIndex == 1)
+                {
+                    BusinessType = "B2B";
+                }
+                else if (cmbBusinessType.SelectedIndex == 2)
+                {
+                    BusinessType = "B2C";
+                }
+            }
+        }
+
+        private void cmbAttendedBy_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+    }
+        #endregion
+
+
+}
+

@@ -1,0 +1,23 @@
+  DataTable dtReport = new DataTable();
+
+                    dtReport = objList.ListOfRecord("rpt_VendorPayment", null, "VendorPayment - Report");
+                    if (objList.Exception == null)
+                    {
+                        if (System.IO.File.Exists(CurrentUser.ReportPath + "rptVendorPaymentRegister.rpt"))
+                        {
+                            //dtblPurchaseInvoice .TableName = "PORegister";
+                            //dtblPurchaseInvoice.WriteXmlSchema(@"D:\Report\PORegister.xsd");
+                            CrystalDecisions.CrystalReports.Engine.ReportDocument rptDoc = new CrystalDecisions.CrystalReports.Engine.ReportDocument();
+                            rptDoc.Load(CurrentUser.ReportPath + "rptVendorPaymentRegister.rpt");
+
+                            CurrentUser.AddReportParameters(rptDoc, dtReport, "Vendor Payment Register", true, true, true, true, false, true, true, false, false, false, false);
+
+                            Reports.frmReportViewer fRptView = new Reports.frmReportViewer();
+                            fRptView.Text = "Vendor Payment Register - [Page Size: A4]";
+                            fRptView.crViewer.ReportSource = rptDoc;
+                            fRptView.ShowDialog();
+                        }
+                        else
+                        {
+                            MessageBox.Show("File is not exist...");
+                        }
